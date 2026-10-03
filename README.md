@@ -2,6 +2,8 @@
 
 An iOS app for quickly estimating cryptocurrency gains, losses, and exit fees. It also includes a bite-sized crypto trivia experience and optional ad-free purchase.
 
+[View Crypto Profit Loss Calculator on the App Store](https://apps.apple.com/us/app/crypto-profit-loss-calculator/id1638849680)
+
 ## Highlights
 
 - Calculates estimated profit or loss from an investment amount, buy price, sell price, and exit fee.
@@ -30,3 +32,7 @@ The project includes platform configuration for Firebase, RevenueCat, and Google
 ## Repository conventions
 
 Generated Xcode user data, local workspace state, and build products are intentionally ignored. Shared project and scheme files remain version-controlled so the project opens consistently for every contributor.
+
+## License
+
+This repository is proprietary software. See [LICENSE](LICENSE) for usage restrictions.
