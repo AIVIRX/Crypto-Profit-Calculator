@@ -1,0 +1,35 @@
+{
+  "configurations" : [
+    {
+      "id" : "BADB76A0-10B9-45E6-84B6-B9A53E345734",
+      "name" : "Arabic",
+      "options" : {
+        "areLocalizationScreenshotsEnabled" : true,
+        "language" : "ar",
+        "region" : "US"
+      }
+    },
+    {
+      "id" : "AA348F4A-FEE7-4E27-B2DB-BF57545A798D",
+      "name" : "English",
+      "options" : {
+        "language" : "en",
+        "region" : "US"
+      }
+    },
+    {
+      "id" : "5E6AAA18-E563-4237-B6A3-FB04FF50682E",
+      "name" : "Spanish",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+
+  ],
+  "version" : 1
+}

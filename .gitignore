@@ -1,0 +1,17 @@
+# Xcode user data and local workspace state
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.xcuserdatad/
+
+# Xcode build products and Swift Package Manager caches
+DerivedData/
+build/
+.build/
+Packages/
+SourcePackages/
+
+# macOS
+.DS_Store

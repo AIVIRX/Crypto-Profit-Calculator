@@ -1,0 +1,275 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "5AE79797",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "3.99",
+      "familyShareable" : false,
+      "internalID" : "6444416452",
+      "localizations" : [
+        {
+          "description" : "Uygulamamızdan reklamları kaldırın!",
+          "displayName" : "reklamları kaldırmak",
+          "locale" : "tr"
+        },
+        {
+          "description" : "Supprimez publicités de notre application !",
+          "displayName" : "Supprimez la pub",
+          "locale" : "fr"
+        },
+        {
+          "description" : "Уберите рекламу из нашего приложения!",
+          "displayName" : "Убрать рекламу",
+          "locale" : "ru"
+        },
+        {
+          "description" : "ลบโฆษณาออกจากแอพของเรา!",
+          "displayName" : "ลบโฆษณา",
+          "locale" : "th"
+        },
+        {
+          "description" : "Alih keluar iklan daripada apl kami!",
+          "displayName" : "Alih Keluar Iklan",
+          "locale" : "ms"
+        },
+        {
+          "description" : "Poista mainokset sovelluksestamme!",
+          "displayName" : "Poista mainokset",
+          "locale" : "fi"
+        },
+        {
+          "description" : "Remova anúncios do nosso aplicativo!",
+          "displayName" : "Remova anúncios",
+          "locale" : "pt_PT"
+        },
+        {
+          "description" : "Remove ads from our app!",
+          "displayName" : "Remove ads",
+          "locale" : "en_AU"
+        },
+        {
+          "description" : "Видаліть рекламу з нашого додатка!",
+          "displayName" : "Видалити рекламу",
+          "locale" : "uk"
+        },
+        {
+          "description" : "Remova anúncios do nosso aplicativo!",
+          "displayName" : "Remova anúncios",
+          "locale" : "pt_BR"
+        },
+        {
+          "description" : "Remove ads from our app!",
+          "displayName" : "Remove ads",
+          "locale" : "en_CA"
+        },
+        {
+          "description" : "Remove ads from our app, Forever!",
+          "displayName" : "Remove Ads",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Hapus iklan dari aplikasi kami!",
+          "displayName" : "Hilangkan iklan",
+          "locale" : "id"
+        },
+        {
+          "description" : "アプリから広告を削除してください。",
+          "displayName" : "広告を削除",
+          "locale" : "ja"
+        },
+        {
+          "description" : "Ta bort annonser från vår app!",
+          "displayName" : "Ta bort annonser",
+          "locale" : "sv"
+        },
+        {
+          "description" : "Καταργήστε διαφημίσεις από την εφαρμογή μας!",
+          "displayName" : "Αφαίρεσε τις διαφημίσεις",
+          "locale" : "el"
+        },
+        {
+          "description" : "Elimina els anuncis de la nostra aplicació!",
+          "displayName" : "Elimina anuncis",
+          "locale" : "ca"
+        },
+        {
+          "description" : "הסר מודעות מהאפליקציה שלנו!",
+          "displayName" : "הסר פרסומות",
+          "locale" : "he"
+        },
+        {
+          "description" : "Eliminați reclamele din aplicația noastră!",
+          "displayName" : "Elimina anunțurile",
+          "locale" : "ro"
+        },
+        {
+          "description" : "Távolítsa el a hirdetéseket az alkalmazásból!",
+          "displayName" : "Hirdetések eltávolítása",
+          "locale" : "hu"
+        },
+        {
+          "description" : "हमारे ऐप से विज्ञापन हटाएँ!",
+          "displayName" : "विज्ञापन हटाएँ",
+          "locale" : "hi"
+        },
+        {
+          "description" : "Odstráňte reklamy z našej aplikácie!",
+          "displayName" : "Odstrániť reklamy",
+          "locale" : "sk"
+        },
+        {
+          "description" : "Entfernen Sie Werbung aus unserer App!",
+          "displayName" : "Anzeigen entfernen",
+          "locale" : "de"
+        },
+        {
+          "description" : "إزالة الإعلانات من التطبيق لدينا!",
+          "displayName" : "ازالة الاعلانات",
+          "locale" : "ar"
+        },
+        {
+          "description" : "Rimuovi gli annunci dalla nostra app!",
+          "displayName" : "Rimuovere gli annunci",
+          "locale" : "it"
+        },
+        {
+          "description" : "¡Elimina anuncios de nuestra aplicación!",
+          "displayName" : "Quitar anuncios",
+          "locale" : "es_ES"
+        },
+        {
+          "description" : "Fjern annoncer fra vores app!",
+          "displayName" : "Fjern annoncer",
+          "locale" : "da"
+        },
+        {
+          "description" : "¡Elimina anuncios de nuestra aplicación!",
+          "displayName" : "Quitar anuncios",
+          "locale" : "es_MX"
+        },
+        {
+          "description" : "Verwijder advertenties uit onze app!",
+          "displayName" : "Verwijder advertenties",
+          "locale" : "nl"
+        },
+        {
+          "description" : "Uklonite oglase iz naše aplikacije!",
+          "displayName" : "Makni reklame",
+          "locale" : "hr"
+        },
+        {
+          "description" : "우리 앱에서 광고를 제거하세요!",
+          "displayName" : "광고를 제거하다",
+          "locale" : "ko"
+        },
+        {
+          "description" : "从我们的应用程序中删除广告！",
+          "displayName" : "移除广告",
+          "locale" : "zh_Hans"
+        },
+        {
+          "description" : "Xóa quảng cáo khỏi ứng dụng của chúng tôi!",
+          "displayName" : "Loại bỏ các quảng cáo",
+          "locale" : "vi"
+        },
+        {
+          "description" : "永遠從我們的應用程式中刪除廣告！",
+          "displayName" : "移除廣告",
+          "locale" : "zh_Hant"
+        },
+        {
+          "description" : "Odstraňte reklamy z naší aplikace!",
+          "displayName" : "odebrat reklamy",
+          "locale" : "cs"
+        },
+        {
+          "description" : "Remove ads from our app!",
+          "displayName" : "Remove ads",
+          "locale" : "en_GB"
+        },
+        {
+          "description" : "Usuń reklamy z naszej aplikacji!",
+          "displayName" : "Usuń reklamy",
+          "locale" : "pl"
+        }
+      ],
+      "productID" : "com.removeads.profitloss",
+      "referenceName" : "Remove Ads",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "1638849680",
+    "_developerTeamID" : "5C778DVBP3",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 770751093.24353099,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

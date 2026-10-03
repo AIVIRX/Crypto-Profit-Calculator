@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC09E1F62F75D14400B2EB4C /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = EC09E1F52F75D14400B2EB4C /* RevenueCat */; };
+		EC09E1F82F75D14400B2EB4C /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = EC09E1F72F75D14400B2EB4C /* RevenueCatUI */; };
+		EC1A5F212E2E9CDA00733B79 /* InterstitialAdManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1A5F202E2E9CDA00733B79 /* InterstitialAdManager.swift */; };
+		EC4806192CDDA0AC003DCDD3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC4806182CDDA0AC003DCDD3 /* GoogleService-Info.plist */; };
+		EC560D672C9F1C68008E0F16 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC560D662C9F1C68008E0F16 /* Constants.swift */; };
+		EC560D692C9F1F1A008E0F16 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC560D682C9F1F1A008E0F16 /* SettingsView.swift */; };
+		EC560D6B2C9F2003008E0F16 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC560D6A2C9F2003008E0F16 /* StoreView.swift */; };
+		EC6478532CA8C52A00E5F56E /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = EC6478522CA8C52A00E5F56E /* InfoPlist.xcstrings */; };
+		EC80252F2C9CEAC600019AD1 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = EC80252E2C9CEAC600019AD1 /* GoogleMobileAds */; };
+		EC8F01732B0024A00040A335 /* CryptoProfitCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F01722B0024A00040A335 /* CryptoProfitCalculatorApp.swift */; };
+		EC8F01752B0024A00040A335 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F01742B0024A00040A335 /* ContentView.swift */; };
+		EC8F01772B0024A20040A335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8F01762B0024A20040A335 /* Assets.xcassets */; };
+		EC8F017A2B0024A20040A335 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8F01792B0024A20040A335 /* Preview Assets.xcassets */; };
+		EC8F01832B0025870040A335 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F01822B0025870040A335 /* Store.swift */; };
+		EC8F01882B0033C80040A335 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8F01872B0033C80040A335 /* AppTrackingTransparency.framework */; };
+		EC8F018D2B0033F70040A335 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8F018C2B0033F60040A335 /* StoreKit.framework */; };
+		EC8F01932B004D5E0040A335 /* BannerAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F01922B004D5E0040A335 /* BannerAds.swift */; };
+		EC9E2C032CA7567A00C6D4C5 /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E2C022CA7567A00C6D4C5 /* CurrencyTextField.swift */; };
+		ECAECFA02CA6512B0031B71A /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAECF9F2CA6512B0031B71A /* Trivia.swift */; };
+		ECBAB2F22E86333400886611 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = ECBAB2F12E86333400886611 /* AppIcon.icon */; };
+		ECC864F32BD9A9EB00F7B2FF /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8F01852B0033BD0040A335 /* AdSupport.framework */; };
+		ECD148072FD0830E0015DF31 /* RevenueCatAdMob in Frameworks */ = {isa = PBXBuildFile; productRef = ECD148062FD0830E0015DF31 /* RevenueCatAdMob */; };
+		ECD148092FD094750015DF31 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = ECD148082FD094750015DF31 /* Localizable.xcstrings */; };
+		ECD2B21F2F49400500667DE7 /* PaywallState.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD2B21E2F49400500667DE7 /* PaywallState.swift */; };
+		ECF3911D2CDE98AF00B3FAFF /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = ECF3911C2CDE98AF00B3FAFF /* FirebaseAnalytics */; };
+		ECF3911F2CDE98BC00B3FAFF /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = ECF3911E2CDE98BC00B3FAFF /* FirebaseCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC1A5F202E2E9CDA00733B79 /* InterstitialAdManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialAdManager.swift; sourceTree = "<group>"; };
+		EC4806182CDDA0AC003DCDD3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EC560D662C9F1C68008E0F16 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EC560D682C9F1F1A008E0F16 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EC560D6A2C9F2003008E0F16 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
+		EC6478522CA8C52A00E5F56E /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		EC8F016F2B0024A00040A335 /* CryptoProfitCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoProfitCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8F01722B0024A00040A335 /* CryptoProfitCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoProfitCalculatorApp.swift; sourceTree = "<group>"; };
+		EC8F01742B0024A00040A335 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC8F01762B0024A20040A335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC8F01792B0024A20040A335 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC8F01822B0025870040A335 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		EC8F01852B0033BD0040A335 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		EC8F01872B0033C80040A335 /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		EC8F018C2B0033F60040A335 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		EC8F01922B004D5E0040A335 /* BannerAds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAds.swift; sourceTree = "<group>"; };
+		EC9E2C022CA7567A00C6D4C5 /* CurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
+		ECAECF9F2CA6512B0031B71A /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
+		ECBAB2F12E86333400886611 /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
+		ECCDB3BD2B0C4D4600B4AA4D /* StoreConfigs.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoreConfigs.storekit; sourceTree = "<group>"; };
+		ECD148082FD094750015DF31 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		ECD2B21E2F49400500667DE7 /* PaywallState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallState.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC8F016C2B0024A00040A335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC80252F2C9CEAC600019AD1 /* GoogleMobileAds in Frameworks */,
+				ECF3911D2CDE98AF00B3FAFF /* FirebaseAnalytics in Frameworks */,
+				EC09E1F62F75D14400B2EB4C /* RevenueCat in Frameworks */,
+				ECC864F32BD9A9EB00F7B2FF /* AdSupport.framework in Frameworks */,
+				EC09E1F82F75D14400B2EB4C /* RevenueCatUI in Frameworks */,
+				ECD148072FD0830E0015DF31 /* RevenueCatAdMob in Frameworks */,
+				ECF3911F2CDE98BC00B3FAFF /* FirebaseCore in Frameworks */,
+				EC8F01882B0033C80040A335 /* AppTrackingTransparency.framework in Frameworks */,
+				EC8F018D2B0033F70040A335 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC1A5F1F2E2E98F500733B79 /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				EC8F01922B004D5E0040A335 /* BannerAds.swift */,
+				EC560D662C9F1C68008E0F16 /* Constants.swift */,
+				EC1A5F202E2E9CDA00733B79 /* InterstitialAdManager.swift */,
+			);
+			path = Ads;
+			sourceTree = "<group>";
+		};
+		EC4433792DF0B9F800E67B9B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ECD2B21E2F49400500667DE7 /* PaywallState.swift */,
+				EC8F01742B0024A00040A335 /* ContentView.swift */,
+				EC560D682C9F1F1A008E0F16 /* SettingsView.swift */,
+				ECAECF9F2CA6512B0031B71A /* Trivia.swift */,
+				EC9E2C022CA7567A00C6D4C5 /* CurrencyTextField.swift */,
+				EC44337A2DF0BA3B00E67B9B /* Store */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EC44337A2DF0BA3B00E67B9B /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				EC560D6A2C9F2003008E0F16 /* StoreView.swift */,
+				EC8F01822B0025870040A335 /* Store.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		EC8F01662B0024A00040A335 = {
+			isa = PBXGroup;
+			children = (
+				EC6478522CA8C52A00E5F56E /* InfoPlist.xcstrings */,
+				EC4806182CDDA0AC003DCDD3 /* GoogleService-Info.plist */,
+				EC8F01712B0024A00040A335 /* CryptoProfitCalculator */,
+				EC8F01702B0024A00040A335 /* Products */,
+				EC8F01842B0033BD0040A335 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC8F01702B0024A00040A335 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC8F016F2B0024A00040A335 /* CryptoProfitCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC8F01712B0024A00040A335 /* CryptoProfitCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				EC4433792DF0B9F800E67B9B /* Views */,
+				EC1A5F1F2E2E98F500733B79 /* Ads */,
+				EC8F01722B0024A00040A335 /* CryptoProfitCalculatorApp.swift */,
+				EC8F01762B0024A20040A335 /* Assets.xcassets */,
+				ECBAB2F12E86333400886611 /* AppIcon.icon */,
+				ECCDB3BD2B0C4D4600B4AA4D /* StoreConfigs.storekit */,
+				EC8F01782B0024A20040A335 /* Preview Content */,
+				ECD148082FD094750015DF31 /* Localizable.xcstrings */,
+			);
+			path = CryptoProfitCalculator;
+			sourceTree = "<group>";
+		};
+		EC8F01782B0024A20040A335 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC8F01792B0024A20040A335 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC8F01842B0033BD0040A335 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC8F018C2B0033F60040A335 /* StoreKit.framework */,
+				EC8F01872B0033C80040A335 /* AppTrackingTransparency.framework */,
+				EC8F01852B0033BD0040A335 /* AdSupport.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC8F016E2B0024A00040A335 /* CryptoProfitCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8F017D2B0024A20040A335 /* Build configuration list for PBXNativeTarget "CryptoProfitCalculator" */;
+			buildPhases = (
+				EC8F016B2B0024A00040A335 /* Sources */,
+				EC8F016C2B0024A00040A335 /* Frameworks */,
+				EC8F016D2B0024A00040A335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoProfitCalculator;
+			packageProductDependencies = (
+				EC80252E2C9CEAC600019AD1 /* GoogleMobileAds */,
+				ECF3911C2CDE98AF00B3FAFF /* FirebaseAnalytics */,
+				ECF3911E2CDE98BC00B3FAFF /* FirebaseCore */,
+				EC09E1F52F75D14400B2EB4C /* RevenueCat */,
+				EC09E1F72F75D14400B2EB4C /* RevenueCatUI */,
+				ECD148062FD0830E0015DF31 /* RevenueCatAdMob */,
+			);
+			productName = CryptoProfitCalculator;
+			productReference = EC8F016F2B0024A00040A335 /* CryptoProfitCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC8F01672B0024A00040A335 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					EC8F016E2B0024A00040A335 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = EC8F016A2B0024A00040A335 /* Build configuration list for PBXProject "CryptoProfitCalculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+				cs,
+				ca,
+				"zh-HK",
+				ru,
+				es,
+				"es-419",
+				"en-AU",
+				"en-GB",
+				"en-IN",
+				"zh-Hans",
+				"zh-Hant",
+				hi,
+				"pt-BR",
+				"pt-PT",
+				"fil-PH",
+				fr,
+				hr,
+				nl,
+				ja,
+				it,
+				ko,
+				de,
+				da,
+				fi,
+				"fr-CA",
+				el,
+				he,
+				hu,
+				id,
+				ms,
+				nb,
+				pl,
+				ro,
+				sk,
+				sv,
+				th,
+				tr,
+				uk,
+				vi,
+				ur,
+				te,
+				bn,
+				bg,
+				"es-US",
+			);
+			mainGroup = EC8F01662B0024A00040A335;
+			packageReferences = (
+				EC80252D2C9CEAC600019AD1 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+				ECF3911B2CDE985D00B3FAFF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				EC09E1F42F75D14400B2EB4C /* XCRemoteSwiftPackageReference "purchases-ios-spm" */,
+				ECD148052FD0830E0015DF31 /* XCRemoteSwiftPackageReference "purchases-ios-admob" */,
+			);
+			productRefGroup = EC8F01702B0024A00040A335 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC8F016E2B0024A00040A335 /* CryptoProfitCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC8F016D2B0024A00040A335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6478532CA8C52A00E5F56E /* InfoPlist.xcstrings in Resources */,
+				EC4806192CDDA0AC003DCDD3 /* GoogleService-Info.plist in Resources */,
+				ECD148092FD094750015DF31 /* Localizable.xcstrings in Resources */,
+				EC8F017A2B0024A20040A335 /* Preview Assets.xcassets in Resources */,
+				EC8F01772B0024A20040A335 /* Assets.xcassets in Resources */,
+				ECBAB2F22E86333400886611 /* AppIcon.icon in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC8F016B2B0024A00040A335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC560D692C9F1F1A008E0F16 /* SettingsView.swift in Sources */,
+				ECAECFA02CA6512B0031B71A /* Trivia.swift in Sources */,
+				EC1A5F212E2E9CDA00733B79 /* InterstitialAdManager.swift in Sources */,
+				EC560D6B2C9F2003008E0F16 /* StoreView.swift in Sources */,
+				EC9E2C032CA7567A00C6D4C5 /* CurrencyTextField.swift in Sources */,
+				ECD2B21F2F49400500667DE7 /* PaywallState.swift in Sources */,
+				EC560D672C9F1C68008E0F16 /* Constants.swift in Sources */,
+				EC8F01752B0024A00040A335 /* ContentView.swift in Sources */,
+				EC8F01932B004D5E0040A335 /* BannerAds.swift in Sources */,
+				EC8F01732B0024A00040A335 /* CryptoProfitCalculatorApp.swift in Sources */,
+				EC8F01832B0025870040A335 /* Store.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EC8F017B2B0024A20040A335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5C778DVBP3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC8F017C2B0024A20040A335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5C778DVBP3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC8F017E2B0024A20040A335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoProfitCalculator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptoProfitCalculator/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Crypto Profit";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 30;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Maicol.CryptoProfitCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC8F017F2B0024A20040A335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoProfitCalculator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptoProfitCalculator/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Crypto Profit";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 30;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Maicol.CryptoProfitCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC8F016A2B0024A00040A335 /* Build configuration list for PBXProject "CryptoProfitCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8F017B2B0024A20040A335 /* Debug */,
+				EC8F017C2B0024A20040A335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8F017D2B0024A20040A335 /* Build configuration list for PBXNativeTarget "CryptoProfitCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8F017E2B0024A20040A335 /* Debug */,
+				EC8F017F2B0024A20040A335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EC09E1F42F75D14400B2EB4C /* XCRemoteSwiftPackageReference "purchases-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.67.0;
+			};
+		};
+		EC80252D2C9CEAC600019AD1 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.0.0;
+			};
+		};
+		ECD148052FD0830E0015DF31 /* XCRemoteSwiftPackageReference "purchases-ios-admob" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios-admob";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.75.0;
+			};
+		};
+		ECF3911B2CDE985D00B3FAFF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EC09E1F52F75D14400B2EB4C /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC09E1F42F75D14400B2EB4C /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCat;
+		};
+		EC09E1F72F75D14400B2EB4C /* RevenueCatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC09E1F42F75D14400B2EB4C /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCatUI;
+		};
+		EC80252E2C9CEAC600019AD1 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC80252D2C9CEAC600019AD1 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+		ECD148062FD0830E0015DF31 /* RevenueCatAdMob */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECD148052FD0830E0015DF31 /* XCRemoteSwiftPackageReference "purchases-ios-admob" */;
+			productName = RevenueCatAdMob;
+		};
+		ECF3911C2CDE98AF00B3FAFF /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECF3911B2CDE985D00B3FAFF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		ECF3911E2CDE98BC00B3FAFF /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECF3911B2CDE985D00B3FAFF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EC8F01672B0024A00040A335 /* Project object */;
+}

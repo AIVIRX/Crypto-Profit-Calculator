@@ -1,0 +1,7229 @@
+{
+  "strings" : {
+    "Crypto Trivia" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "value" : "Trivia crypto",
+            "state" : "translated"
+          }
+        },
+        "ml" : {
+          "stringUnit" : {
+            "value" : "ക്രിപ്റ്റോ ട്രിവിയ",
+            "state" : "translated"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "value" : "Krypto trivia",
+            "state" : "translated"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trivia de Cripto"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crypto Trivia"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "value" : "Trivia Crypto",
+            "state" : "translated"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "value" : "加密貨幣問答",
+            "state" : "translated"
+          }
+        },
+        "mr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "क्रिप्टो ट्रिविया"
+          }
+        },
+        "pa" : {
+          "stringUnit" : {
+            "value" : "ਕ੍ਰਿਪਟੋ ਟ੍ਰਿਵੀਆ",
+            "state" : "translated"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trivia crypto"
+          }
+        },
+        "gu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ક્રિપ્ટો ટ્રિવિયા"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "value" : "Kripto kviz",
+            "state" : "translated"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "value" : "Trivia crypto",
+            "state" : "translated"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trivia κρυπτονομισμάτων"
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crypto Trivia"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trivia de criptomonedas"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trivial tiền điện tử"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "טריוויה על קריפטו"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "value" : "คำถามเกี่ยวกับคริปโต",
+            "state" : "translated"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "value" : "Krypto Trivia",
+            "state" : "translated"
+          }
+        },
+        "kk" : {
+          "stringUnit" : {
+            "value" : "Крипто викторина",
+            "state" : "translated"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "加密貨幣問答"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Крипто-викторина"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trivia de Cripto"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trivia Crypto"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krypto Trivia"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "value" : "暗号トリビア",
+            "state" : "translated"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "value" : "Крипто викторина",
+            "state" : "translated"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "value" : "Kryptotietovisa",
+            "state" : "translated"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "value" : "Kripto Bilgisi",
+            "state" : "translated"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "క్రిప్టో ట్రివియా"
+          }
+        },
+        "or" : {
+          "stringUnit" : {
+            "value" : "Krypto Trivia",
+            "state" : "translated"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "value" : "ক্রিপ্টো ট্রিভিয়া",
+            "state" : "translated"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "value" : "Крипто вікторина",
+            "state" : "translated"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "value" : "Krypto kvíz",
+            "state" : "translated"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trivia de Cripto"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kripto Kvíz"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krypto Trivia"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "加密货币问答",
+            "state" : "translated"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "value" : "Trivia de Cripto",
+            "state" : "translated"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trivia Crypto"
+          }
+        },
+        "ur" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "کریپٹو ٹریویا"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kriptovaliutų viktorina"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "value" : "Krypto Trivia",
+            "state" : "translated"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krypto Trivia"
+          }
+        },
+        "kn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ક્રિપ્ટો ટ્રિવિયા"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "암호화폐 퀴즈"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "value" : "क्रिप्टो ट्रिविया",
+            "state" : "translated"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kripto trivija"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "value" : "Crypto Trivia",
+            "state" : "translated"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "value" : "Trivia de criptomonedes",
+            "state" : "translated"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "value" : "Crypto Trivia",
+            "state" : "translated"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trivia de Cripto"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "value" : "تريفيا العملات المشفرة",
+            "state" : "translated"
+          }
+        }
+      }
+    },
+    "Home" : {
+      "localizations" : {
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Domov"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "首頁"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "value" : "Domov",
+            "state" : "translated"
+          }
+        },
+        "gu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ઘર"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Home"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "मुख्य पृष्ठ"
+          }
+        },
+        "ur" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ہوم"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "value" : "হোম",
+            "state" : "translated"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "value" : "Pagrindinis",
+            "state" : "translated"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "主頁"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accueil"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Головна"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "value" : "Hjem",
+            "state" : "translated"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Início"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Strona główna"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หน้าแรก"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "value" : "Home",
+            "state" : "translated"
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Home"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "value" : "Αρχική",
+            "state" : "translated"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "value" : "Startseite",
+            "state" : "translated"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "value" : "Home",
+            "state" : "translated"
+          }
+        },
+        "ml" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "മൂല്യം"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "value" : "Laman Utama",
+            "state" : "translated"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "హోమ్"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "value" : "בית",
+            "state" : "translated"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Главная"
+          }
+        },
+        "kk" : {
+          "stringUnit" : {
+            "value" : "Басты бет",
+            "state" : "translated"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "value" : "Beranda",
+            "state" : "translated"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acasă"
+          }
+        },
+        "kn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ઘર"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koti"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trang chủ"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Início"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "首页",
+            "state" : "translated"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "value" : "Начало",
+            "state" : "translated"
+          }
+        },
+        "or" : {
+          "stringUnit" : {
+            "value" : "Hjem",
+            "state" : "translated"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Főoldal"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accueil"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "value" : "Inicio",
+            "state" : "translated"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hjem"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Početna"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "value" : "Inicio",
+            "state" : "translated"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "value" : "홈",
+            "state" : "translated"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hem"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ana Sayfa"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inicio"
+          }
+        },
+        "pa" : {
+          "stringUnit" : {
+            "value" : "ਘਰ",
+            "state" : "translated"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "value" : "Inici",
+            "state" : "translated"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Início"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "value" : "Domů",
+            "state" : "translated"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Home"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "value" : "الرئيسية",
+            "state" : "translated"
+          }
+        },
+        "mr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "मुख्यपृष्ठ"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ホーム"
+          }
+        }
+      }
+    },
+    "Short, sharp questions that sharpen your crypto IQ." : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Questions courtes et percutantes qui aiguisent votre QI crypto."
+          }
+        },
+        "ml" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ചുരുങ്ങിയ, കുത്തിയ ചോദ്യങ്ങൾ നിങ്ങളുടെ ക്രിപ്റ്റോ IQ sharpen ചെയ്യുന്നു."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krátke, ostré otázky, ktoré zvyšujú vašu krypto IQ."
+          }
+        },
+        "mr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "लघु, तीव्र प्रश्न जे तुमच्या क्रिप्टो IQ ला धारदार करतात."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "value" : "Short, sharp questions that sharpen your crypto IQ.",
+            "state" : "translated"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Domande brevi e incisive che affilano il tuo QI crypto."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "value" : "簡短、尖銳的問題，提升你的加密貨幣智商。",
+            "state" : "translated"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "value" : "Preguntas cortas y agudas que agudizan tu IQ en cripto.",
+            "state" : "translated"
+          }
+        },
+        "pa" : {
+          "stringUnit" : {
+            "value" : "ਛੋਟੇ, ਤੇਜ਼ ਪ੍ਰਸ਼ਨ ਜੋ ਤੁਹਾਡੇ ਕ੍ਰਿਪਟੋ IQ ਨੂੰ ਤੇਜ਼ ਕਰਦੇ ਹਨ।",
+            "state" : "translated"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Întrebări scurte și concise care îți îmbunătățesc IQ-ul crypto."
+          }
+        },
+        "gu" : {
+          "stringUnit" : {
+            "value" : "ટૂંકા, તીખા પ્રશ્નો જે તમારા ક્રિપ્ટો IQ ને તીખું કરે છે.",
+            "state" : "translated"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "value" : "Kratka, ostra vprašanja, ki izostrijo tvoj kripto IQ.",
+            "state" : "translated"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Questions courtes et percutantes qui aiguisent votre QI crypto."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σύντομες, κοφτές ερωτήσεις που οξύνουν το IQ σας στα κρυπτονομίσματα."
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Short, sharp questions that sharpen your crypto IQ."
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preguntas cortas y agudas que agudizan tu IQ en criptomonedas."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Câu hỏi ngắn, sắc bén giúp nâng cao IQ tiền điện tử của bạn."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "שאלות קצרות וחדות שמחדדות את ה-IQ שלך בקריפטו."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คำถามสั้นๆ ที่ช่วยเพิ่ม IQ ด้านคริปโตของคุณ."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "value" : "Korte, skarpe spørgsmål der skærper din krypto IQ.",
+            "state" : "translated"
+          }
+        },
+        "kk" : {
+          "stringUnit" : {
+            "value" : "Қысқа, нақты сұрақтар, олар сіздің крипто IQ-ны арттырады.",
+            "state" : "translated"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "value" : "簡短、尖銳的問題，提升你的加密貨幣智商。",
+            "state" : "translated"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Короткие, острые вопросы, которые повышают ваш крипто IQ."
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "value" : "Perguntas curtas e diretas que aprimoram seu QI em cripto.",
+            "state" : "translated"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soalan pendek dan tajam yang meningkatkan IQ crypto anda."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "value" : "Korta, skarpa frågor som skärper din krypto IQ.",
+            "state" : "translated"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "value" : "短く鋭い質問があなたの暗号IQを高めます。",
+            "state" : "translated"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "value" : "Кратки, остри въпроси, които усъвършенстват вашия крипто IQ.",
+            "state" : "translated"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "value" : "Lyhyitä, ytimekkäitä kysymyksiä, jotka terävöittävät kryptotietoasi.",
+            "state" : "translated"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kısa, keskin sorular kripto IQ'nuzu keskinleştirir."
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "మీ క్రిప్టో IQని పెంచే చిన్న, కట్టుదిట్టమైన ప్రశ్నలు."
+          }
+        },
+        "or" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Korte, skarpe spørsmål som skjerper din krypto IQ."
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ছোট, তীক্ষ্ণ প্রশ্ন যা আপনার ক্রিপ্টো আইকিউকে তীক্ষ্ণ করে।"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Короткі, чіткі запитання, які покращують ваш крипто IQ."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krátké, ostré otázky, které zvyšují vaši krypto IQ."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "value" : "Perguntas curtas e diretas que aprimoram seu QI em cripto.",
+            "state" : "translated"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rövid, éles kérdések, amelyek élesítik a kripto IQ-dat."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "value" : "Krótkie, zwięzłe pytania, które poprawiają Twoją wiedzę o kryptowalutach.",
+            "state" : "translated"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "简短而尖锐的问题，提升你的加密货币智商。"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preguntas cortas y agudas que agudizan tu IQ cripto."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pertanyaan singkat dan tajam yang meningkatkan IQ crypto Anda."
+          }
+        },
+        "ur" : {
+          "stringUnit" : {
+            "value" : "مختصر، تیز سوالات جو آپ کی کریپٹو IQ کو تیز کرتے ہیں۔",
+            "state" : "translated"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "value" : "Trumpi, aštrūs klausimai, kurie aštrina jūsų kriptovaliutų IQ.",
+            "state" : "translated"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Korte, skarpe spørsmål som skjerper din krypto IQ."
+          }
+        },
+        "kn" : {
+          "stringUnit" : {
+            "value" : "ટૂંકા, તીવ્ર પ્રશ્નો જે તમારા ક્રિપ્ટો IQ ને તેજ કરે છે.",
+            "state" : "translated"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kurze, prägnante Fragen, die dein Krypto-IQ schärfen."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "value" : "짧고 날카로운 질문으로 암호화폐 IQ를 높이세요.",
+            "state" : "translated"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "संक्षिप्त, तेज प्रश्न जो आपके क्रिप्टो IQ को तेज करते हैं।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "value" : "Kratka, oštra pitanja koja poboljšavaju vaš kripto IQ.",
+            "state" : "translated"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "value" : "Korte, scherpe vragen die je crypto IQ aanscherpen.",
+            "state" : "translated"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preguntes curtes i concises que aguditzen el teu IQ de criptomonedes."
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "value" : "Short, sharp questions that sharpen your crypto IQ.",
+            "state" : "translated"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "value" : "Perguntas curtas e diretas que aprimoram seu QI em cripto.",
+            "state" : "translated"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "value" : "أسئلة قصيرة وحادة تعزز من ذكائك في العملات المشفرة.",
+            "state" : "translated"
+          }
+        }
+      }
+    },
+    "Correct!" : {
+      "localizations" : {
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pravilno!"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "value" : "正確！",
+            "state" : "translated"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Správne!"
+          }
+        },
+        "gu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "સાચું!"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Correct!"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "सही!"
+          }
+        },
+        "ur" : {
+          "stringUnit" : {
+            "value" : "صحیح!",
+            "state" : "translated"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "value" : "সঠিক!",
+            "state" : "translated"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teisingai!"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "value" : "正確！",
+            "state" : "translated"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "value" : "Correct !",
+            "state" : "translated"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вірно!"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Korrekt!"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Correto!"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poprawnie!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถูกต้อง!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Correct!"
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Correct!"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σωστό!"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "value" : "Richtig!",
+            "state" : "translated"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "value" : "Corretto!",
+            "state" : "translated"
+          }
+        },
+        "ml" : {
+          "stringUnit" : {
+            "value" : "ശുദ്ധം!",
+            "state" : "translated"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Betul!"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "value" : "సరైనది!",
+            "state" : "translated"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Правилно!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "value" : "Правильно!",
+            "state" : "translated"
+          }
+        },
+        "kk" : {
+          "stringUnit" : {
+            "value" : "Дұрыс!",
+            "state" : "translated"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "value" : "Oikein!",
+            "state" : "translated"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "value" : "Corect!",
+            "state" : "translated"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "value" : "נכון!",
+            "state" : "translated"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benar!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "value" : "Đúng!",
+            "state" : "translated"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Correto!"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正确！"
+          }
+        },
+        "kn" : {
+          "stringUnit" : {
+            "value" : "સાચું!",
+            "state" : "translated"
+          }
+        },
+        "or" : {
+          "stringUnit" : {
+            "value" : "Korrekt!",
+            "state" : "translated"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "value" : "Helyes!",
+            "state" : "translated"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "value" : "Correct !",
+            "state" : "translated"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "value" : "¡Correcto!",
+            "state" : "translated"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "value" : "Korrekt!",
+            "state" : "translated"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Točno!"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "value" : "¡Correcto!",
+            "state" : "translated"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "정답입니다!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Korrekt!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "value" : "Doğru!",
+            "state" : "translated"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Correcto!"
+          }
+        },
+        "pa" : {
+          "stringUnit" : {
+            "value" : "ਸਹੀ!",
+            "state" : "translated"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "value" : "Correcte!",
+            "state" : "translated"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Correto!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Správně!"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "value" : "Correct!",
+            "state" : "translated"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صحيح!"
+          }
+        },
+        "mr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "योग्य!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "value" : "正解！",
+            "state" : "translated"
+          }
+        }
+      }
+    },
+    "App Build: %@" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Construction de l'application : %@"
+          }
+        },
+        "ml" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ആപ്പ് നിർമ്മാണം: %@"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "value" : "Verzia aplikácie: %@",
+            "state" : "translated"
+          }
+        },
+        "mr" : {
+          "stringUnit" : {
+            "value" : "अॅप बिल्ड: %@",
+            "state" : "translated"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "value" : "Construcción de la App: %@",
+            "state" : "translated"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "value" : "Costruzione App: %@",
+            "state" : "translated"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "應用程式版本: %@"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "value" : "App Build: %@",
+            "state" : "translated"
+          }
+        },
+        "pa" : {
+          "stringUnit" : {
+            "value" : "ਐਪ ਬਿਲਡ: %@",
+            "state" : "translated"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "value" : "Construcție aplicație: %@",
+            "state" : "translated"
+          }
+        },
+        "gu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "એપ બિલ્ડ: %@"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "value" : "Gradnja aplikacije: %@",
+            "state" : "translated"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Construction de l'application : %@"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κατασκευή εφαρμογής: %@"
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Build: %@"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "value" : "Construcción de la app: %@",
+            "state" : "translated"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "value" : "Xây dựng ứng dụng: %@",
+            "state" : "translated"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "בנית אפליקציה: %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การสร้างแอป: %@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Byg: %@"
+          }
+        },
+        "kk" : {
+          "stringUnit" : {
+            "value" : "Қосымша құру: %@",
+            "state" : "translated"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "應用程式版本: %@"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "value" : "Сборка приложения: %@",
+            "state" : "translated"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "value" : "Construção do App: %@",
+            "state" : "translated"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pembinaan Aplikasi: %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Bygg: %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリビルド: %@"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Създаване на приложение: %@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "value" : "Sovelluksen versio: %@",
+            "state" : "translated"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulama Yapımı: %@"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "అప్ బిల్డ్: %@"
+          }
+        },
+        "or" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Bygg: %@"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "value" : "Sestavení aplikace: %@",
+            "state" : "translated"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Збірка програми: %@"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "অ্যাপ বিল্ড: %@"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "value" : "Construção do App: %@",
+            "state" : "translated"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "value" : "Alkalmazás verzió: %@",
+            "state" : "translated"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "value" : "Budowa aplikacji: %@",
+            "state" : "translated"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "应用构建：%@"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "value" : "Construcción de la App: %@",
+            "state" : "translated"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Build Aplikasi: %@"
+          }
+        },
+        "ur" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ایپ بلڈ: %@"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "value" : "App-Bau: %@",
+            "state" : "translated"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "value" : "App Bygg: %@",
+            "state" : "translated"
+          }
+        },
+        "kn" : {
+          "stringUnit" : {
+            "value" : "એપ બિલ્ડ: %@",
+            "state" : "translated"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Programėlės versija: %@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "value" : "앱 빌드: %@",
+            "state" : "translated"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ऐप निर्माण: %@"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "value" : "Izrada aplikacije: %@",
+            "state" : "translated"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Build: %@"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Construcció de l'App: %@"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Construção do App: %@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Build: %@"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بناء التطبيق: %@"
+          }
+        }
+      }
+    },
+    "Settings" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réglages"
+          }
+        },
+        "ml" : {
+          "stringUnit" : {
+            "value" : "ക്രമീകരണങ്ങൾ",
+            "state" : "translated"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nastavenia"
+          }
+        },
+        "mr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "सेटिंग्ज"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configuración"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "value" : "Impostazioni",
+            "state" : "translated"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "value" : "設定",
+            "state" : "translated"
+          }
+        },
+        "pa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ਸੈਟਿੰਗਾਂ"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "value" : "Configurări",
+            "state" : "translated"
+          }
+        },
+        "gu" : {
+          "stringUnit" : {
+            "value" : "સેટિંગ્સ",
+            "state" : "translated"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "value" : "Nastavitve",
+            "state" : "translated"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "value" : "Réglages",
+            "state" : "translated"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ρυθμίσεις"
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "value" : "Configuración",
+            "state" : "translated"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cài đặt"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "הגדרות"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "value" : "การตั้งค่า",
+            "state" : "translated"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indstillinger"
+          }
+        },
+        "kk" : {
+          "stringUnit" : {
+            "value" : "Параметрлер",
+            "state" : "translated"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "value" : "設定",
+            "state" : "translated"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Настройки"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "అమరికలు"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tetapan"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inställningar"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "value" : "Настройки",
+            "state" : "translated"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asetukset"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayarlar"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "value" : "அமைப்புகள்",
+            "state" : "translated"
+          }
+        },
+        "or" : {
+          "stringUnit" : {
+            "value" : "ସେଟିଂସ୍",
+            "state" : "translated"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "সেটিংস"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Налаштування"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nastavení"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "value" : "Definições",
+            "state" : "translated"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beállítások"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "value" : "Ustawienia",
+            "state" : "translated"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "设置",
+            "state" : "translated"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configuración"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pengaturan"
+          }
+        },
+        "ur" : {
+          "stringUnit" : {
+            "value" : "ترتیبات",
+            "state" : "translated"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "value" : "Nustatymai",
+            "state" : "translated"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Innstillinger"
+          }
+        },
+        "kn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einstellungen"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "설정"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "सेटिंग्स"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Postavke"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "value" : "Settings",
+            "state" : "translated"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Configuració"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Definições"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instellingen"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "value" : "الإعدادات",
+            "state" : "translated"
+          }
+        }
+      }
+    },
+    "Go Ad-Free" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passez sans publicité"
+          }
+        },
+        "ml" : {
+          "stringUnit" : {
+            "value" : "അഡ്ഫ്രീ ആയി പോകുക",
+            "state" : "translated"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "value" : "Prejdite na verziu bez reklám",
+            "state" : "translated"
+          }
+        },
+        "mr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "अ‍ॅड-फ्री जा"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ir sin anuncios"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vai senza pubblicità"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "value" : "無廣告",
+            "state" : "translated"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go Ad-Free"
+          }
+        },
+        "pa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ਵਿਗਿਆਪਨ-ਮੁਕਤ ਜਾਓ"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fără reclame"
+          }
+        },
+        "gu" : {
+          "stringUnit" : {
+            "value" : "એડ-ફ્રી જાઓ",
+            "state" : "translated"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pojdi brez oglasov"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passer à la version sans publicité"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προβολή χωρίς διαφημίσεις"
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go Ad-Free"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "value" : "Ir sin anuncios",
+            "state" : "translated"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điều hướng không có quảng cáo"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ללא פרסומות"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไปแบบไม่มีโฆษณา"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "value" : "Gå uden annoncer",
+            "state" : "translated"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無廣告"
+          }
+        },
+        "kk" : {
+          "stringUnit" : {
+            "value" : "Жарнама жоқ",
+            "state" : "translated"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейти на безрекламную версию"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ir sem Anúncios"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "value" : "Tamatkan Iklan",
+            "state" : "translated"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "value" : "Gå utan annonser",
+            "state" : "translated"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "広告なしで利用する"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Без реклами"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "value" : "Siirry mainoksettomaan versioon",
+            "state" : "translated"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "value" : "Reklamsız Geç",
+            "state" : "translated"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "value" : "అడ్స్ లేకుండా వెళ్లండి",
+            "state" : "translated"
+          }
+        },
+        "or" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gå uten annonser"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "value" : "বিজ্ঞাপন মুক্ত যান",
+            "state" : "translated"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přejít na verzi bez reklam"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейти на безрекламну версію"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ir sem Anúncios"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "value" : "Hirdetésmentes használat",
+            "state" : "translated"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przejdź do wersji bez reklam"
+          }
+        },
+        "ur" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اشتہارات سے آزاد جائیں"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ir sin Anuncios"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bebas Iklan"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "无广告",
+            "state" : "translated"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "value" : "Eiti be skelbimų",
+            "state" : "translated"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gå uten annonser"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "value" : "Werbefrei gehen",
+            "state" : "translated"
+          }
+        },
+        "kn" : {
+          "stringUnit" : {
+            "value" : "જાહેરાત મુક્ત જાઓ",
+            "state" : "translated"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "value" : "광고 없이 사용하기",
+            "state" : "translated"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "विज्ञापन-मुक्त जाएं"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idi bez oglasa"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "value" : "Go Ad-Free",
+            "state" : "translated"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vés sense anuncis"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "value" : "Vá sem Anúncios",
+            "state" : "translated"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ga Advertentievrij"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "value" : "اذهب بدون إعلانات",
+            "state" : "translated"
+          }
+        }
+      }
+    },
+    "Continue" : {
+      "localizations" : {
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nadaljuj"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "繼續"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokračovať"
+          }
+        },
+        "gu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ચાલુ રાખો"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "जारी रखें"
+          }
+        },
+        "ur" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جاری رکھیں"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tęsti"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "繼續"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "value" : "চালিয়ে যান",
+            "state" : "translated"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "value" : "Continuer",
+            "state" : "translated"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "value" : "Продовжити",
+            "state" : "translated"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsett"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "value" : "కొనసాగించు",
+            "state" : "translated"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "value" : "Kontynuuj",
+            "state" : "translated"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "value" : "ดำเนินการต่อ",
+            "state" : "translated"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ga door"
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "value" : "Συνέχεια",
+            "state" : "translated"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortfahren"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "value" : "Continua",
+            "state" : "translated"
+          }
+        },
+        "ml" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "തുടരുക"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teruskan"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "தொடரவும்"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "value" : "Продължи",
+            "state" : "translated"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продолжить"
+          }
+        },
+        "kk" : {
+          "stringUnit" : {
+            "value" : "Жалғастыру",
+            "state" : "translated"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jatka"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "value" : "Continuă",
+            "state" : "translated"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "המשך"
+          }
+        },
+        "kn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ಮುಂದುವರಿಸಿ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiếp tục"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "value" : "Continuar",
+            "state" : "translated"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "继续",
+            "state" : "translated"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "value" : "Lanjutkan",
+            "state" : "translated"
+          }
+        },
+        "or" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ଜାରି ରଖନ୍ତୁ"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Folytatás"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuer"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "value" : "Continuar",
+            "state" : "translated"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsæt"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nastavi"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "value" : "Continuar",
+            "state" : "translated"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "계속"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "value" : "Fortsätt",
+            "state" : "translated"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Devam Et"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuar"
+          }
+        },
+        "pa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ਜਾਰੀ ਰੱਖੋ"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "value" : "Continua",
+            "state" : "translated"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuar"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "value" : "Pokračovat",
+            "state" : "translated"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "متابعة"
+          }
+        },
+        "mr" : {
+          "stringUnit" : {
+            "value" : "सुरू ठेवा",
+            "state" : "translated"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "続ける"
+          }
+        }
+      }
+    },
+    "Stock Profit Calculator" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calculateur de profit d'actions"
+          }
+        },
+        "ml" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "സ്റ്റോക്ക് ലാഭ കണക്കുകൂട്ടി"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalkulačka zisku z akcií"
+          }
+        },
+        "mr" : {
+          "stringUnit" : {
+            "value" : "स्टॉक नफा गणक",
+            "state" : "translated"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calculadora de Ganancias de Acciones"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "value" : "Calcolatore di Profitto Azionario",
+            "state" : "translated"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "value" : "股票利潤計算器",
+            "state" : "translated"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stock Profit Calculator"
+          }
+        },
+        "pa" : {
+          "stringUnit" : {
+            "value" : "ਸਟਾਕ ਨਫ਼ਾ ਗਣਕ",
+            "state" : "translated"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "value" : "Calculator de profit din acțiuni",
+            "state" : "translated"
+          }
+        },
+        "gu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "સ્ટોક નફો ગણતરીકર્તા"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "value" : "Kalkulator dobička iz delnic",
+            "state" : "translated"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calculateur de profit d'actions"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Υπολογιστής κέρδους μετοχών"
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stock Profit Calculator"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calculadora de ganancias de acciones"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "value" : "Máy tính lợi nhuận cổ phiếu",
+            "state" : "translated"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מחשבון רווחים ממניות"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "value" : "เครื่องคิดเลขกำไรหุ้น",
+            "state" : "translated"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "value" : "Aktie Profit Beregner",
+            "state" : "translated"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "股票利潤計算器"
+          }
+        },
+        "kk" : {
+          "stringUnit" : {
+            "value" : "Акция пайда калькуляторы",
+            "state" : "translated"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "value" : "Калькулятор прибыли от акций",
+            "state" : "translated"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calculadora de Lucro em Ações"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pengira Keuntungan Saham"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktie Vinst Kalkylator"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "value" : "株式利益計算機",
+            "state" : "translated"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Калкулатор на печалба от акции"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Osakevoittojen laskuri"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "value" : "Hisse Senedi Kar Hesaplayıcı",
+            "state" : "translated"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "value" : "స్టాక్ లాభాల గణన",
+            "state" : "translated"
+          }
+        },
+        "or" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aksje Fortjeneste Kalkulator"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "value" : "Kalkulačka zisků z akcií",
+            "state" : "translated"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Калькулятор прибутку від акцій"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "স্টক লাভ ক্যালকুলেটর"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "value" : "Calculadora de Lucros em Ações",
+            "state" : "translated"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Részvény Profit Kalkulátor"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalkulator zysków z akcji"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "股票利润计算器"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calculadora de Ganancias de Acciones"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalkulator Keuntungan Saham"
+          }
+        },
+        "ur" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسٹاک منافع کیلکولیٹر"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "value" : "Akcijų pelno skaičiuoklė",
+            "state" : "translated"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "value" : "Aksje Fortjeneste Kalkulator",
+            "state" : "translated"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "value" : "Aktien Gewinnrechner",
+            "state" : "translated"
+          }
+        },
+        "kn" : {
+          "stringUnit" : {
+            "value" : "સ્ટોક નફો ગણતરીકર્તા",
+            "state" : "translated"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "주식 수익 계산기"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "value" : "स्टॉक लाभ कैलकुलेटर",
+            "state" : "translated"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "value" : "Kalkulator profita od dionica",
+            "state" : "translated"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "value" : "Aandelen Winstcalculator",
+            "state" : "translated"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "value" : "Calculadora de beneficis d'accions",
+            "state" : "translated"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "value" : "Stock Profit Calculator",
+            "state" : "translated"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calculadora de Lucro em Ações"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حاسبة أرباح الأسهم"
+          }
+        }
+      }
+    },
+    "New High Score!" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "value" : "Nouveau meilleur score !",
+            "state" : "translated"
+          }
+        },
+        "ml" : {
+          "stringUnit" : {
+            "value" : "പുതിയ ഉയർന്ന സ്കോർ!",
+            "state" : "translated"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "value" : "Nové najvyššie skóre!",
+            "state" : "translated"
+          }
+        },
+        "mr" : {
+          "stringUnit" : {
+            "value" : "नवीन उच्च स्कोअर!",
+            "state" : "translated"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "value" : "¡Nueva Puntuación Alta!",
+            "state" : "translated"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "value" : "Nuovo Punteggio Record!",
+            "state" : "translated"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新高分！"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New High Score!"
+          }
+        },
+        "pa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ਨਵਾਂ ਉੱਚ ਸਕੋਰ!"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scor nou record!"
+          }
+        },
+        "gu" : {
+          "stringUnit" : {
+            "value" : "નવો ઉચ્ચ સ્કોર!",
+            "state" : "translated"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nov najvišji rezultat!"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nouveau meilleur score !"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Νέα υψηλή βαθμολογία!"
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "value" : "New High Score!",
+            "state" : "translated"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Nueva puntuación alta!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "value" : "Điểm số cao mới!",
+            "state" : "translated"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "value" : "שיא חדש!",
+            "state" : "translated"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คะแนนสูงสุดใหม่!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "value" : "Ny Høj Score!",
+            "state" : "translated"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "value" : "新高分！",
+            "state" : "translated"
+          }
+        },
+        "kk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Жаңа жоғары балл!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Новый рекорд!"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novo Recorde!"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "value" : "Skor Tinggi Baru!",
+            "state" : "translated"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ny Hög Poäng!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "value" : "新しいハイスコア！",
+            "state" : "translated"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ново високо постижение!"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "value" : "Uusi ennätyspiste!",
+            "state" : "translated"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "value" : "Yeni En Yüksek Skor!",
+            "state" : "translated"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "value" : "కొత్త అధిక స్కోరు!",
+            "state" : "translated"
+          }
+        },
+        "or" : {
+          "stringUnit" : {
+            "value" : "Ny Høy Poengsum!",
+            "state" : "translated"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "নতুন উচ্চ স্কোর!"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "value" : "Новий високий бал!",
+            "state" : "translated"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nové nejvyšší skóre!"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novo Recorde!"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Új legmagasabb pontszám!"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "value" : "Nowy rekord!",
+            "state" : "translated"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新高分！"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "value" : "¡Nueva Puntuación Alta!",
+            "state" : "translated"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "value" : "Skor Tinggi Baru!",
+            "state" : "translated"
+          }
+        },
+        "ur" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نیا اعلیٰ اسکور!"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Naujas aukštas rezultatas!"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "value" : "Ny Høy Poengsum!",
+            "state" : "translated"
+          }
+        },
+        "kn" : {
+          "stringUnit" : {
+            "value" : "નવો ઉચ્ચ સ્કોર!",
+            "state" : "translated"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "value" : "Neuer Höchststand!",
+            "state" : "translated"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "새로운 최고 점수!"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "नया उच्च स्कोर!"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "value" : "Novi najbolji rezultat!",
+            "state" : "translated"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "value" : "Nieuwe Hoogste Score!",
+            "state" : "translated"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nova puntuació més alta!"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novo Recorde!"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New High Score!"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نتيجة عالية جديدة!"
+          }
+        }
+      }
+    },
+    "Unlock Premium Features" : {
+      "localizations" : {
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odkleni premium funkcije"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "解鎖高級功能"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "value" : "Odomknúť prémiové funkcie",
+            "state" : "translated"
+          }
+        },
+        "gu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "પ્રીમિયમ ફીચર્સ અનલોક કરો"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unlock Premium Features"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "प्रीमियम सुविधाएँ अनलॉक करें"
+          }
+        },
+        "ur" : {
+          "stringUnit" : {
+            "value" : "پریمیم خصوصیات کو انلاک کریں",
+            "state" : "translated"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "value" : "প্রিমিয়াম বৈশিষ্ট্য আনলক করুন",
+            "state" : "translated"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "value" : "Atrakinti premium funkcijas",
+            "state" : "translated"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "解鎖高級功能"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Débloquer les fonctionnalités premium"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Відкрити преміум функції"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "value" : "Lås Opp Premium Funksjoner",
+            "state" : "translated"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desbloquear Recursos Premium"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "value" : "Odblokuj funkcje premium",
+            "state" : "translated"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "value" : "ปลดล็อกฟีเจอร์พรีเมียม",
+            "state" : "translated"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "value" : "Ontgrendel Premium Functies",
+            "state" : "translated"
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "value" : "Unlock Premium Features",
+            "state" : "translated"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "value" : "Ξεκλειδώστε τις premium δυνατότητες",
+            "state" : "translated"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "value" : "Premium-Funktionen freischalten",
+            "state" : "translated"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "value" : "Sblocca Funzioni Premium",
+            "state" : "translated"
+          }
+        },
+        "ml" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "പ്രീമിയം ഫീച്ചറുകൾ അന്ലോക്ക് ചെയ്യുക"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "value" : "Buka Ciri Premium",
+            "state" : "translated"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "value" : "Отключи премиум функции",
+            "state" : "translated"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ప్రీమియం ఫీచర్లను అన్లాక్ చేయండి"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Разблокировать премиум функции"
+          }
+        },
+        "kk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Премиум мүмкіндіктерді ашу"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avaa premium-ominaisuudet"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "פתח תכונות פרימיום"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buka Fitur Premium"
+          }
+        },
+        "kn" : {
+          "stringUnit" : {
+            "value" : "પ્રીમિયમ ફીચર્સ અનલોક કરો",
+            "state" : "translated"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "value" : "Mở khóa tính năng cao cấp",
+            "state" : "translated"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desbloquear Recursos Premium"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "解锁高级功能",
+            "state" : "translated"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "value" : "Dezblochează funcții premium",
+            "state" : "translated"
+          }
+        },
+        "or" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lås opp Premium Funksjoner"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "value" : "Prémium funkciók feloldása",
+            "state" : "translated"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Débloquer les fonctionnalités premium"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desbloquear funciones premium"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lås op for Premium Funktioner"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "value" : "Otključaj premium značajke",
+            "state" : "translated"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "value" : "Desbloquear Funciones Premium",
+            "state" : "translated"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "프리미엄 기능 잠금 해제"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "value" : "Lås upp Premium Funktioner",
+            "state" : "translated"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "value" : "Premium Özellikleri Aç",
+            "state" : "translated"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desbloquear Funciones Premium"
+          }
+        },
+        "pa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ਪ੍ਰੀਮੀਅਮ ਫੀਚਰਾਂ ਨੂੰ ਅਨਲੌਕ ਕਰੋ"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desbloqueja funcions premium"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desbloquear Recursos Premium"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odemknout prémiové funkce"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "value" : "Unlock Premium Features",
+            "state" : "translated"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "value" : "فتح ميزات مميزة",
+            "state" : "translated"
+          }
+        },
+        "mr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "प्रीमियम वैशिष्ट्ये अनलॉक करा"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プレミアム機能をアンロック"
+          }
+        }
+      }
+    },
+    "Crypto Profit Calculator" : {
+      "localizations" : {
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalkulator kripto dobička"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "加密貨幣利潤計算器"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "value" : "Kalkulačka zisku z kryptomien",
+            "state" : "translated"
+          }
+        },
+        "gu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ક્રિપ્ટો નફો ગણતરીકર્તા"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "value" : "Crypto Profit Calculator",
+            "state" : "translated"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "value" : "क्रिप्टो लाभ कैलकुलेटर",
+            "state" : "translated"
+          }
+        },
+        "ur" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "کریپٹو منافع کیلکولیٹر"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "value" : "ক্রিপ্টো লাভ ক্যালকুলেটর",
+            "state" : "translated"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "加密貨幣利潤計算器"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "value" : "Kriptovaliutų pelno skaičiuoklė",
+            "state" : "translated"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calculateur de profit crypto"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Калькулятор прибутку від криптовалюти"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "value" : "Krypto Fortjeneste Kalkulator",
+            "state" : "translated"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calculadora de Lucro em Cripto"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalkulator zysków z kryptowalut"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "value" : "เครื่องคิดเลขกำไรคริปโต",
+            "state" : "translated"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "value" : "Crypto Winstcalculator",
+            "state" : "translated"
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "value" : "Crypto Profit Calculator",
+            "state" : "translated"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Υπολογιστής κέρδους κρυπτονομισμάτων"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krypto Gewinnrechner"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "value" : "Calcolatore di Profitto Crypto",
+            "state" : "translated"
+          }
+        },
+        "ml" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ക്രിപ്റ്റോ ലാഭ കണക്കുകൂട്ടി"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pengira Keuntungan Crypto"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Крипто печалба калкулатор"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "value" : "క్రిప్టో లాభాల గణన",
+            "state" : "translated"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Калькулятор прибыли от криптовалюты"
+          }
+        },
+        "kk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Крипто пайда калькуляторы"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kryptovoittojen laskuri"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calculator de profit crypto"
+          }
+        },
+        "kn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ક્રિપ્ટો નફો ગણતરીકર્તા"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalkulator Keuntungan Crypto"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Máy tính lợi nhuận tiền điện tử"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calculadora de Lucro em Cripto"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "加密货币利润计算器"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מחשבון רווחים מקריפטו"
+          }
+        },
+        "or" : {
+          "stringUnit" : {
+            "value" : "Krypto Fortjeneste Kalkulator",
+            "state" : "translated"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kripto Profit Kalkulátor"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calculateur de profit crypto"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calculadora de ganancias de criptomonedas"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krypto Profit Beregner"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalkulator profita od kriptovaluta"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "value" : "Calculadora de Ganancias de Cripto",
+            "state" : "translated"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "value" : "암호화폐 수익 계산기",
+            "state" : "translated"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "value" : "Krypto Vinst Kalkylator",
+            "state" : "translated"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kripto Kar Hesaplayıcı"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "value" : "Calculadora de Ganancias de Cripto",
+            "state" : "translated"
+          }
+        },
+        "pa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ਕ੍ਰਿਪਟੋ ਨਫ਼ਾ ਗਣਕ"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "value" : "Calculadora de beneficis de criptomonedes",
+            "state" : "translated"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "value" : "Calculadora de Lucros em Cripto",
+            "state" : "translated"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalkulačka zisků z kryptoměn"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crypto Profit Calculator"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "value" : "حاسبة أرباح العملات المشفرة",
+            "state" : "translated"
+          }
+        },
+        "mr" : {
+          "stringUnit" : {
+            "value" : "क्रिप्टो नफा गणक",
+            "state" : "translated"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暗号利益計算機"
+          }
+        }
+      }
+    },
+    "Trivia" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trivia"
+          }
+        },
+        "ml" : {
+          "stringUnit" : {
+            "value" : "ട്രിവിയ",
+            "state" : "translated"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "value" : "Trivia",
+            "state" : "translated"
+          }
+        },
+        "mr" : {
+          "stringUnit" : {
+            "value" : "ट्रिविया",
+            "state" : "translated"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "value" : "Trivia",
+            "state" : "translated"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "value" : "Trivia",
+            "state" : "translated"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "問答"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trivia"
+          }
+        },
+        "pa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ਟ੍ਰਿਵੀਆ"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "value" : "Trivia",
+            "state" : "translated"
+          }
+        },
+        "gu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ટ્રિવિયા"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "value" : "Kviz",
+            "state" : "translated"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "value" : "Trivia",
+            "state" : "translated"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trivia"
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "value" : "Trivia",
+            "state" : "translated"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trivia"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "value" : "Trivial",
+            "state" : "translated"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "value" : "טריוויה",
+            "state" : "translated"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "value" : "คำถามทั่วไป",
+            "state" : "translated"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "value" : "Trivia",
+            "state" : "translated"
+          }
+        },
+        "kk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Викторина"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "value" : "問答",
+            "state" : "translated"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Викторина"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "value" : "Trivia",
+            "state" : "translated"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "value" : "Trivia",
+            "state" : "translated"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "value" : "Trivia",
+            "state" : "translated"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "トリビア"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "value" : "Викторина",
+            "state" : "translated"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "value" : "Tietovisa",
+            "state" : "translated"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "value" : "Bilgi Yarışması",
+            "state" : "translated"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "value" : "ట్రివియా",
+            "state" : "translated"
+          }
+        },
+        "or" : {
+          "stringUnit" : {
+            "value" : "Trivia",
+            "state" : "translated"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ট্রিভিয়া"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вікторина"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "value" : "Kvíz",
+            "state" : "translated"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "value" : "Trivia",
+            "state" : "translated"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kvíz"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trivia"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "问答",
+            "state" : "translated"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "value" : "Trivia",
+            "state" : "translated"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "value" : "Trivia",
+            "state" : "translated"
+          }
+        },
+        "ur" : {
+          "stringUnit" : {
+            "value" : "ٹریویا",
+            "state" : "translated"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viktorina"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "value" : "Trivia",
+            "state" : "translated"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "value" : "Trivia",
+            "state" : "translated"
+          }
+        },
+        "kn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ટ્રિવિયા"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "퀴즈"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ट्रिविया"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trivija"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trivia"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "value" : "Trivia",
+            "state" : "translated"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trivia"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trivia"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "value" : "تريفيا",
+            "state" : "translated"
+          }
+        }
+      }
+    },
+    "Premium" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "value" : "Premium",
+            "state" : "translated"
+          }
+        },
+        "ml" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "പ്രീമിയം"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "value" : "Prémiový",
+            "state" : "translated"
+          }
+        },
+        "mr" : {
+          "stringUnit" : {
+            "value" : "प्रीमियम",
+            "state" : "translated"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "value" : "Premium",
+            "state" : "translated"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "value" : "Premium",
+            "state" : "translated"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "高級版"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premium"
+          }
+        },
+        "pa" : {
+          "stringUnit" : {
+            "value" : "ਪ੍ਰੀਮੀਅਮ",
+            "state" : "translated"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "value" : "Premium",
+            "state" : "translated"
+          }
+        },
+        "gu" : {
+          "stringUnit" : {
+            "value" : "પ્રીમિયમ",
+            "state" : "translated"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premium"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premium"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "value" : "Premium",
+            "state" : "translated"
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premium"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premium"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "value" : "Cao cấp",
+            "state" : "translated"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "פרימיום"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "value" : "พรีเมียม",
+            "state" : "translated"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premium"
+          }
+        },
+        "kk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Премиум"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "value" : "高級版",
+            "state" : "translated"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "value" : "Премиум",
+            "state" : "translated"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "value" : "Premium",
+            "state" : "translated"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "value" : "Premium",
+            "state" : "translated"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "value" : "Premium",
+            "state" : "translated"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "value" : "プレミアム",
+            "state" : "translated"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "value" : "Премиум",
+            "state" : "translated"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premium"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "value" : "Premium",
+            "state" : "translated"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ప్రీమియం"
+          }
+        },
+        "or" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premium"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prémiové"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Преміум"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "প্রিমিয়াম"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premium"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "value" : "Prémium",
+            "state" : "translated"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premium"
+          }
+        },
+        "ur" : {
+          "stringUnit" : {
+            "value" : "پریمیم",
+            "state" : "translated"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "value" : "Premium",
+            "state" : "translated"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premium"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "高级版"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premium"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premium"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "value" : "Premium",
+            "state" : "translated"
+          }
+        },
+        "kn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "પ્રીમિયમ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "value" : "프리미엄",
+            "state" : "translated"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "value" : "प्रीमियम",
+            "state" : "translated"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "value" : "Premium",
+            "state" : "translated"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "value" : "Premium",
+            "state" : "translated"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premium"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premium"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "value" : "Premium",
+            "state" : "translated"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "value" : "مميز",
+            "state" : "translated"
+          }
+        }
+      }
+    },
+    "Submit Answer" : {
+      "localizations" : {
+        "sl" : {
+          "stringUnit" : {
+            "value" : "Pošlji odgovor",
+            "state" : "translated"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "value" : "提交答案",
+            "state" : "translated"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odoslať odpoveď"
+          }
+        },
+        "gu" : {
+          "stringUnit" : {
+            "value" : "જવાબ સબમિટ કરો",
+            "state" : "translated"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "value" : "Submit Answer",
+            "state" : "translated"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "value" : "उत्तर सबमिट करें",
+            "state" : "translated"
+          }
+        },
+        "ur" : {
+          "stringUnit" : {
+            "value" : "جواب جمع کروائیں",
+            "state" : "translated"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "value" : "উত্তর জমা দিন",
+            "state" : "translated"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "value" : "Pateikti atsakymą",
+            "state" : "translated"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "value" : "提交答案",
+            "state" : "translated"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soumettre la réponse"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "value" : "Надіслати відповідь",
+            "state" : "translated"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send Inn Svar"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enviar Resposta"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wyślij odpowiedź"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ส่งคำตอบ"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "value" : "Antwoord Indienen",
+            "state" : "translated"
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Submit Answer"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "value" : "Υποβολή απάντησης",
+            "state" : "translated"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "value" : "Antwort einreichen",
+            "state" : "translated"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "value" : "Invia Risposta",
+            "state" : "translated"
+          }
+        },
+        "ml" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ഉത്തരം സമർപ്പിക്കുക"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "value" : "Hantar Jawapan",
+            "state" : "translated"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Изпрати отговор"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "సమాధానం సమర్పించండి"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "value" : "Отправить ответ",
+            "state" : "translated"
+          }
+        },
+        "kk" : {
+          "stringUnit" : {
+            "value" : "Жауапты жіберу",
+            "state" : "translated"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "value" : "שלח תשובה",
+            "state" : "translated"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trimite răspunsul"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirim Jawaban"
+          }
+        },
+        "kn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "જવાબ સબમિટ કરો"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "value" : "Gửi câu trả lời",
+            "state" : "translated"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "value" : "Enviar Resposta",
+            "state" : "translated"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "提交答案"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "value" : "Lähetä vastaus",
+            "state" : "translated"
+          }
+        },
+        "or" : {
+          "stringUnit" : {
+            "value" : "Send Svar",
+            "state" : "translated"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "value" : "Válasz beküldése",
+            "state" : "translated"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "value" : "Soumettre la réponse",
+            "state" : "translated"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "value" : "Enviar respuesta",
+            "state" : "translated"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "value" : "Indsend Svar",
+            "state" : "translated"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pošalji odgovor"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enviar Respuesta"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "답변 제출"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "value" : "Skicka Svar",
+            "state" : "translated"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "value" : "Cevabı Gönder",
+            "state" : "translated"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enviar Respuesta"
+          }
+        },
+        "pa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ਜਵਾਬ ਸਬਮਿਟ ਕਰੋ"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Envia resposta"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enviar Resposta"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odeslat odpověď"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Submit Answer"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "value" : "إرسال الإجابة",
+            "state" : "translated"
+          }
+        },
+        "mr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "उत्तर सबमिट करा"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "value" : "回答を送信",
+            "state" : "translated"
+          }
+        }
+      }
+    },
+    "Question %lld of %lld" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Question %1$lld sur %2$lld"
+          }
+        },
+        "ml" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ചോദ്യങ്ങൾ %1$lld ൽ %2$lld"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otázka %1$lld z %2$lld"
+          }
+        },
+        "mr" : {
+          "stringUnit" : {
+            "value" : "प्रश्न %1$lld चा %2$lld",
+            "state" : "translated"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pregunta %1$lld de %2$lld"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "value" : "Domanda %1$lld di %2$lld",
+            "state" : "translated"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "value" : "問題 %1$lld \/ %2$lld",
+            "state" : "translated"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "value" : "Question %1$lld of %2$lld",
+            "state" : "translated"
+          }
+        },
+        "pa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ਸਵਾਲ %1$lld ਵਿੱਚੋਂ %2$lld"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "value" : "Întrebarea %1$lld din %2$lld",
+            "state" : "translated"
+          }
+        },
+        "gu" : {
+          "stringUnit" : {
+            "value" : "પ્રશ્ન %1$lld માંથી %2$lld",
+            "state" : "translated"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "value" : "Vprašanje %1$lld od %2$lld",
+            "state" : "translated"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "value" : "Question %1$lld de %2$lld",
+            "state" : "translated"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "value" : "Ερώτηση %1$lld από %2$lld",
+            "state" : "translated"
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "value" : "Question %1$lld of %2$lld",
+            "state" : "translated"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pregunta %1$lld de %2$lld"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "value" : "Câu hỏi %1$lld trong %2$lld",
+            "state" : "translated"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "value" : "שאלה %1$lld מתוך %2$lld",
+            "state" : "translated"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คำถาม %1$lld จาก %2$lld"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spørgsmål %1$lld af %2$lld"
+          }
+        },
+        "kk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сұрақ %1$lld из %2$lld"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "問題 %1$lld \/ %2$lld"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вопрос %1$lld из %2$lld"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pergunta %1$lld de %2$lld"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "value" : "Soalan %1$lld daripada %2$lld",
+            "state" : "translated"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "value" : "Fråga %1$lld av %2$lld",
+            "state" : "translated"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "質問 %1$lld \/ %2$lld"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Въпрос %1$lld от %2$lld"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kysymys %1$lld \/ %2$lld"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "value" : "Soru %1$lld \/ %2$lld",
+            "state" : "translated"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ప్రశ్న %1$lld లో %2$lld"
+          }
+        },
+        "or" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spørsmål %1$lld av %2$lld"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "প্রশ্ন %1$lld এর %2$lld"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "value" : "Запитання %1$lld з %2$lld",
+            "state" : "translated"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otázka %1$lld z %2$lld"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pergunta %1$lld de %2$lld"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "value" : "Kérdés %1$lld a %2$lld-ból",
+            "state" : "translated"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "value" : "Pytanie %1$lld z %2$lld",
+            "state" : "translated"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "问题 %1$lld \/ %2$lld"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "value" : "Pregunta %1$lld de %2$lld",
+            "state" : "translated"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "value" : "Pertanyaan %1$lld dari %2$lld",
+            "state" : "translated"
+          }
+        },
+        "ur" : {
+          "stringUnit" : {
+            "value" : "سوال %1$lld میں سے %2$lld",
+            "state" : "translated"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klausimas %1$lld iš %2$lld"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "value" : "Spørsmål %1$lld av %2$lld",
+            "state" : "translated"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "value" : "Question %1$lld of %2$lld",
+            "state" : "translated"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frage %1$lld von %2$lld"
+          }
+        },
+        "kn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "પ્રશ્ન %1$lld માંથી %2$lld"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "value" : "प्रश्न %1$lld में से %2$lld",
+            "state" : "translated"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pitanje %1$lld od %2$lld"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vraag %1$lld van %2$lld"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Question %1$lld of %2$lld"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pergunta %1$lld de %2$lld"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "value" : "질문 %1$lld 중 %2$lld",
+            "state" : "translated"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "value" : "Pregunta %1$lld de %2$lld",
+            "state" : "translated"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "السؤال %1$lld من %2$lld"
+          }
+        }
+      }
+    },
+    "Score %lld" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Score %lld"
+          }
+        },
+        "ml" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "സ്കോർ %lld"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skóre %lld"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "value" : "Puntuación %lld",
+            "state" : "translated"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Score %lld"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "value" : "Punteggio %lld",
+            "state" : "translated"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分數 %lld"
+          }
+        },
+        "mr" : {
+          "stringUnit" : {
+            "value" : "स्कोअर %lld",
+            "state" : "translated"
+          }
+        },
+        "pa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ਸਕੋਰ %lld"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "value" : "Scor %lld",
+            "state" : "translated"
+          }
+        },
+        "gu" : {
+          "stringUnit" : {
+            "value" : "સ્કોર %lld",
+            "state" : "translated"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rezultat %lld"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "value" : "Score %lld",
+            "state" : "translated"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Βαθμολογία %lld"
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Score %lld"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "value" : "Puntuación %lld",
+            "state" : "translated"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "value" : "Điểm số %lld",
+            "state" : "translated"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ניקוד %lld"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คะแนน %lld"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "value" : "Score %lld",
+            "state" : "translated"
+          }
+        },
+        "kk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ұпай %lld"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "value" : "分數 %lld",
+            "state" : "translated"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Счет %lld"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "value" : "Pontuação %lld",
+            "state" : "translated"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skor %lld"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poäng %lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "スコア %lld"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Резултат %lld"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "value" : "Pisteet %lld",
+            "state" : "translated"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skor %lld"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "స్కోరు %lld"
+          }
+        },
+        "or" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poengsum %lld"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "value" : "স্কোর %lld",
+            "state" : "translated"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "value" : "Рахунок %lld",
+            "state" : "translated"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "value" : "Skóre %lld",
+            "state" : "translated"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "value" : "Pontuação %lld",
+            "state" : "translated"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "value" : "Pontszám %lld",
+            "state" : "translated"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "value" : "Wynik %lld",
+            "state" : "translated"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "得分 %lld"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puntuación %lld"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "value" : "Skor %lld",
+            "state" : "translated"
+          }
+        },
+        "ur" : {
+          "stringUnit" : {
+            "value" : "اسکور %lld",
+            "state" : "translated"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rezultatas %lld"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "value" : "Punktestand %lld",
+            "state" : "translated"
+          }
+        },
+        "kn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "સ્કોર %lld"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "value" : "Poengsum %lld",
+            "state" : "translated"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "value" : "점수 %lld",
+            "state" : "translated"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "स्कोर %lld"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rezultat %lld"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Score %lld"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "value" : "Puntuació %lld",
+            "state" : "translated"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Score %lld"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pontuação %lld"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "value" : "النتيجة %lld",
+            "state" : "translated"
+          }
+        }
+      }
+    },
+    "Currency" : {
+      "localizations" : {
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valuta"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "貨幣"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mena"
+          }
+        },
+        "gu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "કરન્સી"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "value" : "Currency",
+            "state" : "translated"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "value" : "मुद्रा",
+            "state" : "translated"
+          }
+        },
+        "ur" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "کرنسی"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "value" : "মুদ্রা",
+            "state" : "translated"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valiuta"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "貨幣"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Monnaie"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Валюта"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valuta"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "value" : "Moeda",
+            "state" : "translated"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waluta"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สกุลเงิน"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "value" : "Valuta",
+            "state" : "translated"
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Currency"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Νόμισμα"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "value" : "Währung",
+            "state" : "translated"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valuta"
+          }
+        },
+        "ml" : {
+          "stringUnit" : {
+            "value" : "നാണ്യം",
+            "state" : "translated"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mata Wang"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "value" : "కరెన్సీ",
+            "state" : "translated"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Валута"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Валюта"
+          }
+        },
+        "kk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Валюта"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מטבע"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Monedă"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valuutta"
+          }
+        },
+        "kn" : {
+          "stringUnit" : {
+            "value" : "કરન્સી",
+            "state" : "translated"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiền tệ"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "value" : "Moeda",
+            "state" : "translated"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "货币"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "value" : "Mata Uang",
+            "state" : "translated"
+          }
+        },
+        "or" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valuta"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valuta"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "value" : "Monnaie",
+            "state" : "translated"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moneda"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "value" : "Valuta",
+            "state" : "translated"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valuta"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "value" : "Moneda",
+            "state" : "translated"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "value" : "통화",
+            "state" : "translated"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "value" : "Valuta",
+            "state" : "translated"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Para Birimi"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moneda"
+          }
+        },
+        "pa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ਮੁਦਰਾ"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "value" : "Moneda",
+            "state" : "translated"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "value" : "Moeda",
+            "state" : "translated"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Měna"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "value" : "Currency",
+            "state" : "translated"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "value" : "عملة",
+            "state" : "translated"
+          }
+        },
+        "mr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "चलन"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通貨"
+          }
+        }
+      }
+    },
+    "Chapter Complete!" : {
+      "localizations" : {
+        "sl" : {
+          "stringUnit" : {
+            "value" : "Poglavje zaključeno!",
+            "state" : "translated"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "章節完成！"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "value" : "Kapitola dokončená!",
+            "state" : "translated"
+          }
+        },
+        "gu" : {
+          "stringUnit" : {
+            "value" : "અધ્યાય પૂર્ણ!",
+            "state" : "translated"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chapter Complete!"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "अध्याय पूरा!"
+          }
+        },
+        "ur" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "باب مکمل!"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "value" : "Skyrius baigtas!",
+            "state" : "translated"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "章節完成！"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "অধ্যায় সম্পন্ন!"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chapitre terminé !"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Розділ завершено!"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kapittel Fullført!"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "value" : "Capítulo Completo!",
+            "state" : "translated"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "value" : "Rozdział ukończony!",
+            "state" : "translated"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บทเรียนเสร็จสมบูรณ์!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "value" : "Hoofdstuk Compleet!",
+            "state" : "translated"
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "value" : "Chapter Complete!",
+            "state" : "translated"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "value" : "Κεφάλαιο ολοκληρώθηκε!",
+            "state" : "translated"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kapitel abgeschlossen!"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Capitolo Completato!"
+          }
+        },
+        "ml" : {
+          "stringUnit" : {
+            "value" : "അധ്യായം പൂർത്തിയായി!",
+            "state" : "translated"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "value" : "Bab Lengkap!",
+            "state" : "translated"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "value" : "అధ్యాయం పూర్తయింది!",
+            "state" : "translated"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "value" : "Глава завършена!",
+            "state" : "translated"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Глава завершена!"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luku valmis!"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "value" : "פרק הושלם!",
+            "state" : "translated"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "value" : "Capitol complet!",
+            "state" : "translated"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "value" : "Bab Selesai!",
+            "state" : "translated"
+          }
+        },
+        "kn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "અધ્યાય પૂર્ણ!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "value" : "Chương đã hoàn thành!",
+            "state" : "translated"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Capítulo Completo!"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "章节完成！",
+            "state" : "translated"
+          }
+        },
+        "kk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бөлім аяқталды!"
+          }
+        },
+        "or" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kapittel Fullført!"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "value" : "Fejezet befejezve!",
+            "state" : "translated"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chapitre terminé !"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "value" : "¡Capítulo completo!",
+            "state" : "translated"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "value" : "Kapitel Fuldført!",
+            "state" : "translated"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poglavlje završeno!"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Capítulo Completo!"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "value" : "챕터 완료!",
+            "state" : "translated"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kapitel Komplett!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "value" : "Bölüm Tamamlandı!",
+            "state" : "translated"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "value" : "¡Capítulo Completo!",
+            "state" : "translated"
+          }
+        },
+        "pa" : {
+          "stringUnit" : {
+            "value" : "ਅਧਿਆਇ ਪੂਰਾ!",
+            "state" : "translated"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "value" : "Capítol complet!",
+            "state" : "translated"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Capítulo Completo!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "value" : "Kapitola dokončena!",
+            "state" : "translated"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chapter Complete!"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "value" : "الفصل مكتمل!",
+            "state" : "translated"
+          }
+        },
+        "mr" : {
+          "stringUnit" : {
+            "value" : "अध्याय पूर्ण!",
+            "state" : "translated"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "章が完了しました！"
+          }
+        }
+      }
+    },
+    "%lld questions" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "value" : "%lld questions",
+            "state" : "translated"
+          }
+        },
+        "ml" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ചോദ്യങ്ങൾ"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "value" : "%lld otázok",
+            "state" : "translated"
+          }
+        },
+        "mr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld प्रश्न"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "value" : "%lld preguntas",
+            "state" : "translated"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld domande"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 個問題"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "value" : "%lld questions",
+            "state" : "translated"
+          }
+        },
+        "pa" : {
+          "stringUnit" : {
+            "value" : "%lld ਪ੍ਰਸ਼ਨ",
+            "state" : "translated"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld întrebări"
+          }
+        },
+        "gu" : {
+          "stringUnit" : {
+            "value" : "%lld પ્રશ્નો",
+            "state" : "translated"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "value" : "%lld vprašanj",
+            "state" : "translated"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "value" : "%lld questions",
+            "state" : "translated"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "value" : "%lld ερωτήσεις",
+            "state" : "translated"
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld questions"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld câu hỏi"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "value" : "%lld שאלות",
+            "state" : "translated"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "value" : "%lld preguntas",
+            "state" : "translated"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld คำถาม"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld spørgsmål"
+          }
+        },
+        "kk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld сұрақ"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 問題"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld вопросов"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld perguntas"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld soalan"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "value" : "%lld frågor",
+            "state" : "translated"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lldの質問"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "value" : "%lld въпроса",
+            "state" : "translated"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld kysymystä"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld soru"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ప్రశ్నలు"
+          }
+        },
+        "or" : {
+          "stringUnit" : {
+            "value" : "%lld spørsmål",
+            "state" : "translated"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "value" : "%lld প্রশ্ন",
+            "state" : "translated"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld otázek"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld запитань"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld perguntas"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "value" : "%lld kérdés",
+            "state" : "translated"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld pytań"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "%lld个问题",
+            "state" : "translated"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld preguntas"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld pertanyaan"
+          }
+        },
+        "ur" : {
+          "stringUnit" : {
+            "value" : "%lld سوالات",
+            "state" : "translated"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld klausimų"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld spørsmål"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Fragen"
+          }
+        },
+        "kn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ಪ್ರಶ್ನೆಗಳು"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "value" : "%lld 질문",
+            "state" : "translated"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld प्रश्न"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "value" : "%lld pitanja",
+            "state" : "translated"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld questions"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "value" : "%lld preguntes",
+            "state" : "translated"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld perguntas"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "value" : "%lld vragen",
+            "state" : "translated"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "value" : "",
+            "state" : "new"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "Incorrect" : {
+      "localizations" : {
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napačno"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不正確"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nesprávne"
+          }
+        },
+        "gu" : {
+          "stringUnit" : {
+            "value" : "ખોટું",
+            "state" : "translated"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Incorrect"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "value" : "गलत",
+            "state" : "translated"
+          }
+        },
+        "ur" : {
+          "stringUnit" : {
+            "value" : "غلط",
+            "state" : "translated"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ভুল"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "value" : "Neteisingai",
+            "state" : "translated"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不正確"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Incorrect"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Невірно"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feil"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Incorreto"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "value" : "Niepoprawnie",
+            "state" : "translated"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "value" : "ไม่ถูกต้อง",
+            "state" : "translated"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Onjuist"
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "value" : "Incorrect",
+            "state" : "translated"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "value" : "Λάθος",
+            "state" : "translated"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Falsch"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "value" : "Sbagliato",
+            "state" : "translated"
+          }
+        },
+        "ml" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "തെറ്റാണ്"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "value" : "Salah",
+            "state" : "translated"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "తప్పు"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Väärin"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "value" : "Неправильно",
+            "state" : "translated"
+          }
+        },
+        "kk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дұрыс емес"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "שגוי"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "value" : "Incorect",
+            "state" : "translated"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "value" : "Salah",
+            "state" : "translated"
+          }
+        },
+        "kn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ખોટું"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Неправилно"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Incorreto"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "value" : "错误",
+            "state" : "translated"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sai"
+          }
+        },
+        "or" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feil"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Helytelen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Incorrect"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Incorrecto"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "value" : "Forkert",
+            "state" : "translated"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Netočno"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Incorrecto"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "오답입니다"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "value" : "Felaktig",
+            "state" : "translated"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yanlış"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Incorrecto"
+          }
+        },
+        "pa" : {
+          "stringUnit" : {
+            "value" : "ਗਲਤ",
+            "state" : "translated"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Incorrecte"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "value" : "Incorreto",
+            "state" : "translated"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "value" : "Nesprávně",
+            "state" : "translated"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Incorrect"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "value" : "غير صحيح",
+            "state" : "translated"
+          }
+        },
+        "mr" : {
+          "stringUnit" : {
+            "value" : "अयोग्य",
+            "state" : "translated"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不正解"
+          }
+        }
+      }
+    },
+    "Score: %lld" : {
+      "localizations" : {
+        "sl" : {
+          "stringUnit" : {
+            "value" : "Rezultat: %lld",
+            "state" : "translated"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "value" : "分數: %lld",
+            "state" : "translated"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "value" : "Skóre: %lld",
+            "state" : "translated"
+          }
+        },
+        "gu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "સ્કોર: %lld"
+          }
+        },
+        "en-IN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Score: %lld"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "स्कोर: %lld"
+          }
+        },
+        "ur" : {
+          "stringUnit" : {
+            "value" : "اسکور: %lld",
+            "state" : "translated"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "value" : "Rezultatas: %lld",
+            "state" : "translated"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分數: %lld"
+          }
+        },
+        "bn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "স্কোর: %lld"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Score : %lld"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Рахунок: %lld"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "value" : "Poengsum: %lld",
+            "state" : "translated"
+          }
+        },
+        "te" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pontuação: %lld"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wynik: %lld"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "value" : "คะแนน: %lld",
+            "state" : "translated"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Score: %lld"
+          }
+        },
+        "en-AU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Score: %lld"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "value" : "Βαθμολογία: %lld",
+            "state" : "translated"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "value" : "Punktestand: %lld",
+            "state" : "translated"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Punteggio: %lld"
+          }
+        },
+        "ml" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "സ്കോർ: %lld"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "value" : "Skor: %lld",
+            "state" : "translated"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "value" : "స్కోరు: %lld",
+            "state" : "translated"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "value" : "Резултат: %lld",
+            "state" : "translated"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "value" : "Счет: %lld",
+            "state" : "translated"
+          }
+        },
+        "kk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ұпай: %lld"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "value" : "Pisteet: %lld",
+            "state" : "translated"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ניקוד: %lld"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "value" : "Skor: %lld",
+            "state" : "translated"
+          }
+        },
+        "kn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "સ્કોર: %lld"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "value" : "Điểm: %lld",
+            "state" : "translated"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pontuação: %lld"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "得分：%lld"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scor: %lld"
+          }
+        },
+        "or" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poengsum: %lld"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pontszám: %lld"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "value" : "Score : %lld",
+            "state" : "translated"
+          }
+        },
+        "es-US" : {
+          "stringUnit" : {
+            "value" : "Puntuación: %lld",
+            "state" : "translated"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "value" : "Score: %lld",
+            "state" : "translated"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "value" : "Rezultat: %lld",
+            "state" : "translated"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "value" : "Puntuación: %lld",
+            "state" : "translated"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "value" : "점수: %lld",
+            "state" : "translated"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poäng: %lld"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "value" : "Skor: %lld",
+            "state" : "translated"
+          }
+        },
+        "es-419" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puntuación: %lld"
+          }
+        },
+        "pa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ਸਕੋਰ: %lld"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puntuació: %lld"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pontuação: %lld"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "value" : "Skóre: %lld",
+            "state" : "translated"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Score: %lld"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "النتيجة: %lld"
+          }
+        },
+        "mr" : {
+          "stringUnit" : {
+            "value" : "स्कोअर: %lld",
+            "state" : "translated"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "value" : "スコア: %lld",
+            "state" : "translated"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.2",
+  "sourceLanguage" : "en"
+}
