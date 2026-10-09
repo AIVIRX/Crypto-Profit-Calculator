@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CurrencyTextField: View {
     @Environment(\.colorScheme) var colorScheme
+    @Environment(\.horizontalSizeClass) private var horizontalSizeClass
     var placeholder: String
     @Binding var text: String
     var selectedCurrency: String
@@ -17,12 +18,12 @@ struct CurrencyTextField: View {
             HStack{
                 Text(selectedCurrency)
                     .foregroundStyle(.primary)
-                    .font(.system(size: UIDevice.current.userInterfaceIdiom == .pad ? 50 : 40, weight: .black, design: .rounded))
+                    .font(.system(size: inputFontSize, weight: .black, design: .rounded))
                 ZStack(alignment: .leading) {
                     TextField(placeholder, text: $text)
                         .foregroundStyle(colorScheme == .dark ? .white : .black)
                         .padding(.horizontal, 8)
-                        .font(.system(size: UIDevice.current.userInterfaceIdiom == .pad ? 50 : 40, weight: .black, design: .rounded))
+                        .font(.system(size: inputFontSize, weight: .black, design: .rounded))
                         .keyboardType(.decimalPad)
                         .textFieldStyle(.plain)
                         .onChange(of: text) { _, newValue in
@@ -42,6 +43,10 @@ struct CurrencyTextField: View {
             )
             .padding(8)
         }
+    }
+
+    private var inputFontSize: CGFloat {
+        horizontalSizeClass == .regular ? 32 : 40
     }
     
     private func validateInput(_ input: String) -> String {

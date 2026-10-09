@@ -15,6 +15,7 @@ final class Store: NSObject, ObservableObject {
             saveCompletedPurchases()
         }
     }
+    @Published private(set) var adsAreEligible = false
 
     private let removeAdsProductID = "com.removeads.profitloss"
     private let removeAdsEntitlementID = "remove_ads"
@@ -50,6 +51,8 @@ final class Store: NSObject, ObservableObject {
             let customerInfo = try await Purchases.shared.customerInfo()
             applyEntitlements(from: customerInfo)
         } catch {
+            // Keep ads off when entitlement status cannot be verified.
+            adsAreEligible = false
             print("Failed to refresh RevenueCat entitlements: \(error)")
         }
     }
@@ -57,6 +60,7 @@ final class Store: NSObject, ObservableObject {
     private func applyEntitlements(from customerInfo: CustomerInfo) {
         let hasRemoveAds = customerInfo.entitlements[removeAdsEntitlementID]?.isActive == true
         let updatedPurchases = hasRemoveAds ? [removeAdsProductID] : []
+        adsAreEligible = !hasRemoveAds
 
         if updatedPurchases != completedPurchases {
             completedPurchases = updatedPurchases

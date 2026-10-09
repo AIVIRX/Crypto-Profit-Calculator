@@ -12,7 +12,7 @@
           "position" : {
             "scale" : 1,
             "translation-in-points" : [
-              -10,
+              -20,
               0
             ]
           }
@@ -25,7 +25,7 @@
       "specular" : true,
       "translucency" : {
         "enabled" : true,
-        "value" : 0.6900000000000002
+        "value" : 0.5
       }
     }
   ],

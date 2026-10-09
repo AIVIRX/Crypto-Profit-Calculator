@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Combine
+import StoreKit
 
 struct CryptoTriviaView: View {
     struct TriviaQuestion {
@@ -440,17 +441,16 @@ struct CryptoTriviaView: View {
     @State private var highScore = UserDefaults.standard.integer(forKey: "HighScore")
     @EnvironmentObject private var store: Store
     @EnvironmentObject private var interstitialAdManager: InterstitialAdManager
+    @EnvironmentObject private var reviewRequestState: ReviewRequestState
+    @Environment(\.requestReview) private var requestReview
     @State private var hasShownInterstitialThisCompletion = false
     
     // Chapter progress tracking
     @State private var completedChapters: [Int] = []
     @State private var chapterScores: [Int: Int] = [:]
-    
-    private let accentGradient = LinearGradient(
-        gradient: Gradient(colors: [Color(red: 0.13, green: 0.82, blue: 0.67), Color(red: 0.98, green: 0.45, blue: 0.2)]),
-        startPoint: .topLeading,
-        endPoint: .bottomTrailing
-    )
+
+    // Do not use the app-wide accent color here: it becomes white in Dark Mode.
+    private let primaryActionColor = Color(red: 0.0, green: 0.45, blue: 0.38)
     
     var body: some View {
         if currentChapterIndex == nil {
@@ -464,36 +464,25 @@ struct CryptoTriviaView: View {
         ZStack {
             triviaBackground
             ScrollView {
-                VStack(spacing: 28) {
-                    VStack(spacing: 14) {
-                        ZStack {
-                            Circle()
-                                .fill(accentGradient.opacity(0.25))
-                                .frame(width: 92, height: 92)
-                            Image(systemName: "bitcoinsign.circle.fill")
-                                .font(.system(size: 56, weight: .bold))
-                                .foregroundStyle(accentGradient)
-                        }
-                        
+                VStack(alignment: .leading, spacing: 24) {
+                    VStack(alignment: .leading, spacing: 8) {
                         Text("Crypto Trivia")
-                            .font(.system(size: 36, weight: .bold, design: .rounded))
-                            .foregroundStyle(.primary)
+                            .font(.largeTitle.bold())
                         
-                        Text("Short, sharp questions that sharpen your crypto IQ.")
-                            .font(.system(size: 16, weight: .medium))
-                            .foregroundColor(.secondary)
-                            .multilineTextAlignment(.center)
-                            .padding(.horizontal, 28)
+                        Text("Short questions to build your crypto knowledge.")
+                            .font(.body)
+                            .foregroundStyle(.secondary)
                     }
-                    .padding(.top, 12)
+                    .padding(.top, 8)
                     
-                    HStack(spacing: 12) {
-                        statCard(title: "High Score", value: "\(highScore)")
-                        statCard(title: "Chapters", value: "\(completedChapters.count)/\(chapters.count)")
-                    }
-                    .padding(.horizontal, 16)
+                    Text("\(completedChapters.count) of \(chapters.count) chapters completed · High score \(highScore)")
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
                     
-                    LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 16) {
+                    VStack(alignment: .leading, spacing: 12) {
+                        Text("Chapters")
+                            .font(.headline)
+
                         ForEach(0..<chapters.count, id: \.self) { idx in
                             ChapterCard(
                                 chapter: chapters[idx],
@@ -505,9 +494,9 @@ struct CryptoTriviaView: View {
                             }
                         }
                     }
-                    .padding(.horizontal, 16)
                 }
-                .padding(.vertical, 24)
+                .frame(maxWidth: 680, alignment: .leading)
+                .padding(20)
             }
         }
         .onAppear { loadProgressData() }
@@ -556,30 +545,23 @@ struct CryptoTriviaView: View {
             triviaBackground
             
             ScrollView {
-                VStack(spacing: 18) {
+                VStack(spacing: 20) {
                     HStack(spacing: 12) {
                         Button(action: { currentChapterIndex = nil }) {
-                            Image(systemName: "chevron.left")
-                                .font(.system(size: 16, weight: .bold))
-                                .foregroundColor(.primary)
-                                .padding(10)
-                                .background(.ultraThinMaterial, in: Circle())
+                            Label("Chapters", systemImage: "chevron.left")
                         }
+                        .buttonStyle(.borderless)
                         
                         VStack(alignment: .leading, spacing: 4) {
-                            Text("Trivia")
-                                .font(.system(size: 14, weight: .semibold))
-                                .foregroundColor(.secondary)
                             if let chapterIdx = currentChapterIndex {
                                 Text(chapters[chapterIdx].title)
-                                    .font(.system(size: 20, weight: .bold, design: .rounded))
-                                    .foregroundColor(.primary)
+                                    .font(.headline)
+                                    .lineLimit(1)
                             }
                         }
                         
                         Spacer()
                     }
-                    .padding(.horizontal, 16)
                     .padding(.top, 8)
                     
                     if let chapterIdx = currentChapterIndex {
@@ -588,18 +570,15 @@ struct CryptoTriviaView: View {
                             HStack {
                                 Text("Question \(currentQuestionIndex + 1) of \(currentChapter.questions.count)")
                                     .font(.subheadline)
-                                    .foregroundColor(.secondary)
+                                    .foregroundStyle(.secondary)
                                 Spacer()
                                 Text("Score \(currentScore)")
                                     .font(.subheadline.weight(.semibold))
-                                    .foregroundStyle(accentGradient)
+                                    .foregroundStyle(.tint)
                             }
                             ProgressView(value: Double(currentQuestionIndex + 1), total: Double(currentChapter.questions.count))
-                                .tint(accentGradient)
+                                .tint(primaryActionColor)
                         }
-                        .padding(16)
-                        .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 16))
-                        .padding(.horizontal, 16)
                         .animation(.easeInOut, value: currentQuestionIndex)
                     }
                     
@@ -607,24 +586,13 @@ struct CryptoTriviaView: View {
                         let currentChapter = chapters[chapterIdx]
                         let currentQuestion = currentChapter.questions[currentQuestionIndex]
                         
-                        VStack(spacing: 24) {
+                        VStack(spacing: 12) {
                             Text(currentQuestion.question)
-                                .font(.system(size: 24, weight: .bold, design: .rounded))
-                                .multilineTextAlignment(.center)
-                                .padding(.horizontal, 8)
+                                .font(.title3.weight(.semibold))
+                                .multilineTextAlignment(.leading)
                         }
-                        .padding(24)
-                        .background(
-                            RoundedRectangle(cornerRadius: 20)
-                                .fill(Color(.systemBackground).opacity(0.9))
-                                .overlay(
-                                    RoundedRectangle(cornerRadius: 20)
-                                        .stroke(Color.white.opacity(0.08), lineWidth: 1)
-                                )
-                                .shadow(color: Color.black.opacity(0.12), radius: 20, x: 0, y: 10)
-                        )
-                        .padding(.horizontal, 16)
-                        .padding(.bottom, 24)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(.top, 8)
                         
                         VStack(spacing: 12) {
                             ForEach(0..<currentQuestion.answers.count, id: \.self) { index in
@@ -637,7 +605,7 @@ struct CryptoTriviaView: View {
                                 }) {
                                     HStack {
                                         Text(currentQuestion.answers[index])
-                                            .font(.system(size: 17, weight: .semibold))
+                                            .font(.body.weight(.semibold))
                                             .foregroundColor(.primary)
                                         Spacer()
                                         if isAnswerSubmitted && index == selectedAnswerIndex {
@@ -646,22 +614,19 @@ struct CryptoTriviaView: View {
                                                 .font(.title2)
                                         }
                                     }
-                                    .padding(.vertical, 20)
-                                    .padding(.horizontal, 24)
+                                    .padding(.vertical, 16)
+                                    .padding(.horizontal, 18)
                                     .frame(maxWidth: .infinity)
                                     .background(duolingoAnswerBackground(index: index))
-                                    .cornerRadius(16)
+                                    .clipShape(RoundedRectangle(cornerRadius: 12))
                                     .overlay(
-                                        RoundedRectangle(cornerRadius: 16)
-                                            .stroke(duolingoAnswerStroke(index: index), lineWidth: 3)
+                                        RoundedRectangle(cornerRadius: 12)
+                                            .stroke(duolingoAnswerStroke(index: index), lineWidth: 2)
                                     )
-                                    .shadow(color: Color.black.opacity(0.08), radius: 10, x: 0, y: 6)
                                 }
                                 .disabled(isAnswerSubmitted)
                             }
                         }
-                        .padding(.horizontal, 16)
-                        .padding(.bottom, 16)
                         
                         if !isAnswerSubmitted {
                             Button(action: {
@@ -670,50 +635,31 @@ struct CryptoTriviaView: View {
                             }) {
                                 Text("Submit Answer")
                                     .fontWeight(.bold)
-                                    .font(.title3)
                                     .frame(maxWidth: .infinity)
-                                    .padding()
-                                    .background(
-                                        RoundedRectangle(cornerRadius: 16)
-                                            .fill(Color(.systemGray4))
-                                            .opacity(selectedAnswerIndex == nil ? 1 : 0)
-                                    )
-                                    .background(
-                                        RoundedRectangle(cornerRadius: 16)
-                                            .fill(accentGradient)
-                                            .opacity(selectedAnswerIndex == nil ? 0 : 1)
-                                    )
-                                    .foregroundColor(.white)
-                                    .shadow(color: Color.black.opacity(0.2), radius: 8, x: 0, y: 6)
                             }
-                            .padding(.horizontal, 16)
-                            .padding(.top, 10)
+                            .buttonStyle(.borderedProminent)
+                            .tint(primaryActionColor)
+                            .foregroundStyle(.white)
+                            .controlSize(.large)
                             .disabled(selectedAnswerIndex == nil)
                         } else {
-                            // Feedback card
-                            VStack(spacing: 16) {
+                            VStack(alignment: .leading, spacing: 8) {
                                 HStack {
                                     Image(systemName: isCorrectAnswer ? "checkmark.circle.fill" : "xmark.circle.fill")
                                         .foregroundColor(isCorrectAnswer ? .green : .red)
-                                        .font(.title)
+                                        .font(.title3)
                                     Text(isCorrectAnswer ? "Correct!" : "Incorrect")
-                                        .font(.title2)
-                                        .fontWeight(.bold)
+                                        .font(.headline)
                                         .foregroundColor(isCorrectAnswer ? .green : .red)
                                 }
                                 
                                 Text(feedbackMessage)
                                     .font(.body)
-                                    .foregroundColor(.secondary)
-                                    .multilineTextAlignment(.center)
+                                    .foregroundStyle(.secondary)
                             }
-                            .padding(20)
-                            .background(
-                                RoundedRectangle(cornerRadius: 16)
-                                    .fill(isCorrectAnswer ? Color.green.opacity(0.1) : Color.red.opacity(0.1))
-                            )
-                            .padding(.horizontal, 16)
-                            .padding(.bottom, 16)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding(16)
+                            .background(isCorrectAnswer ? Color.green.opacity(0.12) : Color.red.opacity(0.12), in: RoundedRectangle(cornerRadius: 12))
                             
                             Button(action: {
                                 moveToNextQuestion()
@@ -723,34 +669,27 @@ struct CryptoTriviaView: View {
                                 Text(nextButtonText())
                                     .fontWeight(.bold)
                                     .frame(maxWidth: .infinity)
-                                    .padding()
-                                    .background(accentGradient)
-                                    .foregroundColor(.white)
-                                    .cornerRadius(16)
                             }
-                            .padding(.horizontal, 16)
-                            .padding(.bottom, 16)
+                            .buttonStyle(.borderedProminent)
+                            .tint(primaryActionColor)
+                            .foregroundStyle(.white)
+                            .controlSize(.large)
                         }
                         Spacer()
                     } else {
-                        // Show interstitial ad after chapter completion (once per completion)
+                        // A chapter completion is a natural transition point for an interstitial.
+                        // If the ad is still loading, `onChange` below retries when it becomes ready.
                         Color.clear
                             .frame(height: 0)
                             .onAppear {
-                                if !hasShownInterstitialThisCompletion && !store.completedPurchases.contains("com.removeads.profitloss") {
-                                    if interstitialAdManager.isAdReady {
-                                        let rootVC = UIApplication.shared.getRootViewController()
-                                        interstitialAdManager.showInterstitial(from: rootVC)
-                                    }
-                                    hasShownInterstitialThisCompletion = true
-                                }
+                                presentCompletionInterstitialIfReady()
                             }
                         
                         // Completion screen
-                        VStack(spacing: 24) {
-                            Image(systemName: "trophy.fill")
-                                .font(.system(size: 60))
-                                .foregroundColor(.yellow)
+                        VStack(spacing: 16) {
+                            Image(systemName: "checkmark.circle.fill")
+                                .font(.system(size: 48))
+                                .foregroundStyle(.green)
                             
                             Text("Chapter Complete!")
                                 .font(.largeTitle)
@@ -758,8 +697,8 @@ struct CryptoTriviaView: View {
                                 .multilineTextAlignment(.center)
                             
                             Text("Score: \(currentScore)")
-                                .font(.title2)
-                                .foregroundStyle(accentGradient)
+                                .font(.title3)
+                                .foregroundStyle(.secondary)
                             
                             if currentScore > highScore {
                                 Text("New High Score!")
@@ -768,62 +707,35 @@ struct CryptoTriviaView: View {
                             }
                             
                             Button(action: {
+                                reviewRequestState.requestIfNeeded {
+                                    requestReview()
+                                }
                                 restartTrivia()
-                                hasShownInterstitialThisCompletion = false
                             }) {
                                 Text("Continue")
                                     .fontWeight(.bold)
                                     .frame(maxWidth: .infinity)
-                                    .padding()
-                                    .background(accentGradient)
-                                    .foregroundColor(.white)
-                                    .cornerRadius(16)
                             }
-                            .padding(.horizontal, 16)
+                            .buttonStyle(.borderedProminent)
+                            .tint(primaryActionColor)
+                            .foregroundStyle(.white)
+                            .controlSize(.large)
                         }
-                        .padding()
+                        .padding(.vertical, 32)
                     }
                 }
-                .padding(.vertical, 12)
+                .frame(maxWidth: 680)
+                .padding(20)
             }
+        }
+        .onChange(of: interstitialAdManager.isAdReady) { _, _ in
+            presentCompletionInterstitialIfReady()
         }
     }
     
     private var triviaBackground: some View {
-        ZStack {
-            LinearGradient(
-                gradient: Gradient(colors: [Color(.systemBackground), Color(.systemGray6)]),
-                startPoint: .topLeading,
-                endPoint: .bottomTrailing
-            )
+        Color(uiColor: .systemGroupedBackground)
             .ignoresSafeArea()
-            
-            Circle()
-                .fill(Color(red: 0.13, green: 0.82, blue: 0.67).opacity(0.12))
-                .frame(width: 240, height: 240)
-                .blur(radius: 10)
-                .offset(x: -120, y: -160)
-            
-            Circle()
-                .fill(Color(red: 0.98, green: 0.45, blue: 0.2).opacity(0.12))
-                .frame(width: 280, height: 280)
-                .blur(radius: 12)
-                .offset(x: 130, y: 220)
-        }
-    }
-    
-    private func statCard(title: String, value: String) -> some View {
-        VStack(alignment: .leading, spacing: 6) {
-            Text(title)
-                .font(.system(size: 12, weight: .semibold))
-                .foregroundColor(.secondary)
-            Text(value)
-                .font(.system(size: 20, weight: .bold, design: .rounded))
-                .foregroundStyle(accentGradient)
-        }
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .padding(14)
-        .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 14))
     }
     
     private func submitAnswer(_ selectedIndex: Int) {
@@ -891,6 +803,19 @@ struct CryptoTriviaView: View {
             checkHighScore()
             saveChapterProgress()
         }
+    }
+
+    private func presentCompletionInterstitialIfReady() {
+        guard isQuizCompleted,
+              !hasShownInterstitialThisCompletion,
+              store.adsAreEligible,
+              interstitialAdManager.shouldShowAd(),
+              let rootViewController = UIApplication.shared.getRootViewController() else {
+            return
+        }
+
+        hasShownInterstitialThisCompletion = true
+        interstitialAdManager.showInterstitial(from: rootViewController)
     }
     
     private func saveChapterProgress() {
@@ -969,43 +894,30 @@ struct ChapterCard: View {
     
     var body: some View {
         Button(action: action) {
-            VStack(alignment: .leading, spacing: 12) {
-                HStack {
-                    VStack(alignment: .leading, spacing: 6) {
-                        Text(chapter.title)
-                            .font(.system(size: 16, weight: .bold, design: .rounded))
-                            .foregroundColor(.primary)
-                            .multilineTextAlignment(.leading)
-                        
-                        Text(isCompleted ? "Score \(score)" : "\(totalQuestions) questions")
-                            .font(.subheadline)
-                            .foregroundColor(isCompleted ? chapterColor() : .secondary)
-                            .fontWeight(.semibold)
-                    }
-                    
-                    Spacer()
-                    
-                    Image(systemName: isCompleted ? "checkmark.seal.fill" : "sparkles")
-                        .foregroundColor(chapterColor())
-                        .font(.title3)
+            HStack(spacing: 14) {
+                Image(systemName: isCompleted ? "checkmark.circle.fill" : "circle")
+                    .font(.title3)
+                    .foregroundStyle(isCompleted ? chapterColor() : .secondary)
+
+                VStack(alignment: .leading, spacing: 4) {
+                    Text(chapter.title)
+                        .font(.headline)
+                        .foregroundStyle(.primary)
+                        .multilineTextAlignment(.leading)
+
+                    Text(isCompleted ? "Completed · Score \(score)" : "\(totalQuestions) questions")
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
                 }
-                
-                if isCompleted {
-                    ProgressView(value: Double(score), total: Double(totalQuestions * 100))
-                        .tint(chapterColor())
-                        .scaleEffect(x: 1, y: 0.8, anchor: .center)
-                }
+
+                Spacer()
+
+                Image(systemName: "chevron.right")
+                    .font(.subheadline.weight(.semibold))
+                    .foregroundStyle(.tertiary)
             }
             .padding(16)
-            .background(
-                RoundedRectangle(cornerRadius: 16)
-                    .fill(Color(.systemBackground).opacity(0.9))
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 16)
-                            .stroke(chapterColor().opacity(0.3), lineWidth: 2)
-                    )
-                    .shadow(color: chapterColor().opacity(0.18), radius: 12, x: 0, y: 6)
-            )
+            .background(Color(uiColor: .secondarySystemGroupedBackground), in: RoundedRectangle(cornerRadius: 14))
         }
         .buttonStyle(PlainButtonStyle())
     }

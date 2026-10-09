@@ -55,19 +55,11 @@ struct ContentView: View {
                 }
                 .tag(Tabs.settings)
         }
-        .accentColor(colorScheme == .dark ? .white : .black)
-        .onAppear {
-            // Track navigation for smart ads
-            if !store.completedPurchases.contains("com.removeads.profitloss") {
-                interstitialAdManager.recordNavigation()
-                
-                // Show ad if conditions are met
-                if interstitialAdManager.shouldShowAdAfterNavigation() {
-                    let rootVC = UIApplication.shared.getRootViewController()
-                    interstitialAdManager.showSmartInterstitial(from: rootVC)
-                }
-            }
-        }
+        .tint(tintColor)
+    }
+
+    private var tintColor: Color {
+        return colorScheme == .dark ? .white : .black
     }
 }
 
@@ -79,73 +71,73 @@ struct CalculatorView: View {
     @EnvironmentObject private var store: Store
     @EnvironmentObject private var interstitialAdManager: InterstitialAdManager
     @EnvironmentObject private var paywallState: PaywallState
-    @Environment(\.requestReview) private var requestReview
-    @State private var sessionStart = Date()
-    @State private var hasPromptedForReview = false
-    @State private var hasShownInterstitialThisSession = false
-    @State private var hasAttemptedFirstInterstitial = false
-    @State private var hasRetriedFirstInterstitial = false
+    @Environment(\.horizontalSizeClass) private var horizontalSizeClass
     @State private var investmentAmount = ""
     @State private var buyPrice = ""
     @State private var sellPrice = ""
     @State private var exitFeeAmount = ""
+    @State private var displayedInvestmentAmount = "0"
+    @State private var displayedBuyPrice = "0"
+    @State private var displayedSellPrice = "0"
+    @State private var displayedExitFeeAmount = "0"
+
+    private let calculationActionColor = Color.indigo
+
     var body: some View {
         NavigationStack {
-            VStack {
-                ScrollView{
+            ScrollView {
+                VStack(spacing: 16) {
                     ProfitLossCard(
-                        investmentAmount: emptyToZero(investmentAmount),
-                        buyPrice: emptyToZero(buyPrice),
-                        sellPrice: emptyToZero(sellPrice),
-                        exitFeeAmount: emptyToZero(exitFeeAmount),
+                        investmentAmount: displayedInvestmentAmount,
+                        buyPrice: displayedBuyPrice,
+                        sellPrice: displayedSellPrice,
+                        exitFeeAmount: displayedExitFeeAmount,
                         selectedCurrency: selectedCurrency
                     )
-                    
-                    CurrencyTextField(placeholder: "Investment", text: $investmentAmount, selectedCurrency: selectedCurrency)
-                    CurrencyTextField(placeholder: "Buy Price", text: $buyPrice, selectedCurrency: selectedCurrency)
-                    CurrencyTextField(placeholder: "Sell Price", text: $sellPrice, selectedCurrency: selectedCurrency)
-                    CurrencyTextField(placeholder: "Exit Fee", text: $exitFeeAmount, selectedCurrency: selectedCurrency)
-                    
-                    // Go Ad-Free Button
-                    if store.completedPurchases.contains("com.removeads.profitloss") == false {
-                        Button(action: {
-                            paywallState.isPresented = true
-                        }) {
-                            HStack {
-                                Image(systemName: "crown.fill")
-                                    .foregroundColor(.yellow)
-                                Text("Go Ad-Free")
-                                    .fontWeight(.bold)
-                                Spacer()
-                                Image(systemName: "chevron.right")
-                                    .foregroundColor(.secondary)
-                            }
-                            .padding()
-                            .background(
-                                RoundedRectangle(cornerRadius: 12)
-                                    .fill(Color.indigo.opacity(0.1))
-                                    .overlay(
-                                        RoundedRectangle(cornerRadius: 12)
-                                            .stroke(Color.indigo.opacity(0.3), lineWidth: 1)
-                                    )
-                            )
-                            .foregroundColor(.primary)
-                        }
-                        .buttonStyle(PlainButtonStyle())
-                        .padding(.horizontal)
-                        .padding(.top, 8)
+
+                    LazyVGrid(columns: inputColumns, spacing: 4) {
+                        CurrencyTextField(placeholder: "Investment", text: $investmentAmount, selectedCurrency: selectedCurrency)
+                        CurrencyTextField(placeholder: "Buy Price", text: $buyPrice, selectedCurrency: selectedCurrency)
+                        CurrencyTextField(placeholder: "Sell Price", text: $sellPrice, selectedCurrency: selectedCurrency)
+                        CurrencyTextField(placeholder: "Fee", text: $exitFeeAmount, selectedCurrency: selectedCurrency)
                     }
+
+                    Button(action: calculate) {
+                        Text("Calculate")
+                            .fontWeight(.bold)
+                            .frame(maxWidth: .infinity)
+                    }
+                    .buttonStyle(.borderedProminent)
+                    .tint(calculationActionColor)
+                    .foregroundStyle(.white)
+                    .controlSize(.large)
+                    .disabled(canCalculate == false)
+
                 }
+                .frame(maxWidth: 760)
+                .frame(maxWidth: .infinity)
+                .padding(.horizontal, horizontalSizeClass == .regular ? 24 : 8)
+                .padding(.vertical, 12)
             }
-            .padding(5)
             .navigationBarTitle("Crypto Profit Calculator")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
+                if store.completedPurchases.contains("com.removeads.profitloss") == false {
+                    ToolbarItem(placement: .topBarLeading) {
+                        Button {
+                            paywallState.isPresented = true
+                        } label: {
+                            Image(systemName: "gift.fill")
+                        }
+                        .tint(.indigo)
+                        .accessibilityLabel("Go Ad-Free")
+                    }
+                }
+
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Picker("Currency", selection: $selectedCurrency) {
                         ForEach(currencySymbols, id: \.self) { symbol in
                             Image(systemName: symbolIcon(for: symbol))
-                                .font(.system(size: UIDevice.current.userInterfaceIdiom == .pad ? 20 : 18))
                                 .tag(symbol)
                         }
                     }
@@ -163,70 +155,53 @@ struct CalculatorView: View {
             .navigationViewStyle(StackNavigationViewStyle())
             .onAppear{
                 store.loadStoredPurchases()
-                sessionStart = Date()
-                hasAttemptedFirstInterstitial = false
-                hasRetriedFirstInterstitial = false
-                hasShownInterstitialThisSession = false
-            }
-            .onChange(of: investmentAmount) { _, _ in
-                maybeRequestReview()
-            }
-            .onChange(of: buyPrice) { _, _ in
-                maybeRequestReview()
-            }
-            .onChange(of: sellPrice) { _, _ in
-                maybeRequestReview()
-            }
-            .onChange(of: exitFeeAmount) { _, _ in
-                maybeRequestReview()
-            }
-            .onReceive(Timer.publish(every: 1, on: .main, in: .common).autoconnect()) { _ in
-                if !hasPromptedForReview && Date().timeIntervalSince(sessionStart) > 45 {
-                    maybeRequestReview()
-                }
-
-                let elapsed = Date().timeIntervalSince(sessionStart)
-
-                // First attempt after 15 seconds
-                if !hasAttemptedFirstInterstitial && elapsed > 15 {
-                    hasAttemptedFirstInterstitial = true
-                    if !store.completedPurchases.contains("com.removeads.profitloss"),
-                       interstitialAdManager.shouldShowAd() {
-                        let rootVC = UIApplication.shared.getRootViewController()
-                        interstitialAdManager.showSmartInterstitial(from: rootVC)
-                        hasShownInterstitialThisSession = true
-                    }
-                }
-
-                // One retry after 25 seconds if not shown yet
-                if !hasShownInterstitialThisSession && hasAttemptedFirstInterstitial && !hasRetriedFirstInterstitial && elapsed > 25 {
-                    hasRetriedFirstInterstitial = true
-                    if !store.completedPurchases.contains("com.removeads.profitloss"),
-                       interstitialAdManager.shouldShowAd() {
-                        let rootVC = UIApplication.shared.getRootViewController()
-                        interstitialAdManager.showSmartInterstitial(from: rootVC)
-                        hasShownInterstitialThisSession = true
-                    }
-                }
             }
         }
     }
-        
-        func maybeRequestReview() {
-            let lastPromptDate = UserDefaults.standard.object(forKey: "LastReviewPromptDate") as? Date
-            let now = Date()
-            let minInterval: TimeInterval = 60 * 60 * 24 * 30 // 30 days
-            
-            if lastPromptDate == nil || now.timeIntervalSince(lastPromptDate!) > minInterval {
-                requestReview()
-                UserDefaults.standard.set(now, forKey: "LastReviewPromptDate")
-                hasPromptedForReview = true
-            }
+
+    private var inputColumns: [GridItem] {
+        horizontalSizeClass == .regular
+            ? [GridItem(.flexible(), spacing: 12), GridItem(.flexible(), spacing: 12)]
+            : [GridItem(.flexible())]
+    }
+
+    private var canCalculate: Bool {
+        guard let investment = Self.parseNumber(investmentAmount),
+              let buyPrice = Self.parseNumber(buyPrice),
+              Self.parseNumber(sellPrice) != nil else {
+            return false
         }
+
+        return investment > 0 && buyPrice > 0
+    }
+
+    private func calculate() {
+        guard canCalculate else { return }
+
+        displayedInvestmentAmount = emptyToZero(investmentAmount)
+        displayedBuyPrice = emptyToZero(buyPrice)
+        displayedSellPrice = emptyToZero(sellPrice)
+        displayedExitFeeAmount = emptyToZero(exitFeeAmount)
+
+        UIImpactFeedbackGenerator(style: .medium).impactOccurred()
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.45) {
+            showCalculatorInterstitialIfReady()
+        }
+    }
+
+    private func showCalculatorInterstitialIfReady() {
+        guard store.adsAreEligible,
+              interstitialAdManager.shouldShowAd(minimumInterval: 60),
+              let rootViewController = UIApplication.shared.getRootViewController() else {
+            return
+        }
+
+        interstitialAdManager.showInterstitial(from: rootViewController)
     }
     
     // Helper function to parse numbers with international decimal separators
-    private func parseNumber(_ string: String) -> Double? {
+    private static func parseNumber(_ string: String) -> Double? {
         // Remove any currency symbols and trim whitespace
         let cleaned = string.trimmingCharacters(in: .whitespacesAndNewlines)
         
@@ -301,7 +276,7 @@ struct CalculatorView: View {
             let breakEvenSellPrice = calculateBreakEvenSellPrice()
             VStack(spacing: 5) {
                 Text(formattedProfitLoss(from: animatedProfitLoss))
-                    .font(.system(size: UIDevice.current.userInterfaceIdiom == .pad ? 50 : 40, weight: .black, design: .rounded))
+                    .font(.system(.largeTitle, design: .rounded, weight: .black))
                     .monospacedDigit()
                     .foregroundColor(textColor(for: currentProfitLoss))
                     .contentTransition(.numericText())
@@ -311,7 +286,7 @@ struct CalculatorView: View {
                     .foregroundColor(.white.opacity(0.9))
             }
             .padding()
-            .frame(minWidth: 0, maxWidth: .infinity, minHeight: 100, maxHeight: UIDevice.current.userInterfaceIdiom == .pad ? 128 : 112)
+            .frame(maxWidth: .infinity, minHeight: 100)
             .background(backgroundColor())
             .cornerRadius(cornerRadius())
             .onAppear {
@@ -325,10 +300,10 @@ struct CalculatorView: View {
         }
         
         private func calculateProfitLoss() -> Double {
-            guard let investment = parseNumber(investmentAmount),
-                  let buyPrice = parseNumber(buyPrice),
-                  let sell = parseNumber(sellPrice),
-                  let exitFee = parseNumber(exitFeeAmount) else {
+            guard let investment = CalculatorView.parseNumber(investmentAmount),
+                  let buyPrice = CalculatorView.parseNumber(buyPrice),
+                  let sell = CalculatorView.parseNumber(sellPrice),
+                  let exitFee = CalculatorView.parseNumber(exitFeeAmount) else {
                 return 0.0
             }
             
@@ -348,9 +323,9 @@ struct CalculatorView: View {
         }
 
         private func calculateBreakEvenSellPrice() -> Double? {
-            guard let investment = parseNumber(investmentAmount),
-                  let buyPrice = parseNumber(buyPrice),
-                  let exitFee = parseNumber(exitFeeAmount),
+            guard let investment = CalculatorView.parseNumber(investmentAmount),
+                  let buyPrice = CalculatorView.parseNumber(buyPrice),
+                  let exitFee = CalculatorView.parseNumber(exitFeeAmount),
                   investment > 0,
                   buyPrice > 0 else {
                 return nil
@@ -411,3 +386,4 @@ struct CalculatorView: View {
             return 20
         }
     }
+}

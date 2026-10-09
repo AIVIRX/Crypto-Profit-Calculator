@@ -13,6 +13,30 @@ import FirebaseCore
 import RevenueCat
 import RevenueCatUI
 
+enum AppTheme: String, CaseIterable, Identifiable {
+    case system
+    case light
+    case dark
+
+    var id: String { rawValue }
+
+    var title: String {
+        switch self {
+        case .system: return "System"
+        case .light: return "Light"
+        case .dark: return "Dark"
+        }
+    }
+
+    var preferredColorScheme: ColorScheme? {
+        switch self {
+        case .system: return nil
+        case .light: return .light
+        case .dark: return .dark
+        }
+    }
+}
+
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
@@ -56,45 +80,31 @@ struct CryptoProfitCalculatorApp: App {
     @StateObject private var store = Store()
     @StateObject private var interstitialAdManager = InterstitialAdManager()
     @StateObject private var paywallState = PaywallState()
+    @StateObject private var reviewRequestState = ReviewRequestState()
+    @AppStorage("appTheme") private var appTheme = AppTheme.system.rawValue
+
     var body: some Scene {
         WindowGroup {
-            VStack{
-                if !store.completedPurchases.contains("com.removeads.profitloss") {
-                    let adsEnabled = !store.completedPurchases.contains("com.removeads.profitloss")
-                    if UIDevice.current.userInterfaceIdiom == .phone {
-                        AdView(adUnitID: AdUnitID.finalAds, isAdsEnabled: adsEnabled)
-                            .frame(width: 320, height: 50)
-                            .padding(5)
-                    }
-                    
-                    if UIDevice.current.userInterfaceIdiom == .pad {
-                        AdView(adUnitID: AdUnitID.finalAds, isAdsEnabled: adsEnabled)
-                            .frame(width: 468, height: 60)
-                            .padding(5)
-                    }
-                }
-                
-                ContentView()
-                    .environmentObject(store)
-                    .environmentObject(paywallState)
-                    .environmentObject(interstitialAdManager)
-            }
+            ContentView()
+                .environmentObject(store)
+                .environmentObject(paywallState)
+                .environmentObject(interstitialAdManager)
+                .environmentObject(reviewRequestState)
+            .preferredColorScheme(AppTheme(rawValue: appTheme)?.preferredColorScheme)
             .onAppear {
                 Task { await store.refreshEntitlements() }
-                if store.completedPurchases.contains("com.removeads.profitloss") {
-                    interstitialAdManager.stopLoadingAds()
-                } else {
+                if store.adsAreEligible {
                     interstitialAdManager.resumeLoadingAds()
-                    paywallState.presentAutoIfNeeded(true)
+                } else {
+                    interstitialAdManager.stopLoadingAds()
                 }
             }
-            .onChange(of: store.completedPurchases) { _, purchases in
-                if purchases.contains("com.removeads.profitloss") {
+            .onChange(of: store.adsAreEligible) { _, adsAreEligible in
+                if adsAreEligible {
+                    interstitialAdManager.resumeLoadingAds()
+                } else {
                     paywallState.isPresented = false
                     interstitialAdManager.stopLoadingAds()
-                } else {
-                    paywallState.presentAutoIfNeeded(true)
-                    interstitialAdManager.resumeLoadingAds()
                 }
             }
             .sheet(isPresented: $paywallState.isPresented) {
