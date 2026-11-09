@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC4806192CDDA0AC003DCDD3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC4806182CDDA0AC003DCDD3 /* GoogleService-Info.plist */; };
 		EC4F04A83078BBA7005CFBFB /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = EC4F04A73078BBA7005CFBFB /* RevenueCat */; };
 		EC4F04AA3078BBA7005CFBFB /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = EC4F04A93078BBA7005CFBFB /* RevenueCatUI */; };
 		EC4F04AD3078BBED005CFBFB /* RevenueCatAdMob in Frameworks */ = {isa = PBXBuildFile; productRef = EC4F04AC3078BBED005CFBFB /* RevenueCatAdMob */; };
@@ -20,12 +19,10 @@
 		ECC864F32BD9A9EB00F7B2FF /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8F01852B0033BD0040A335 /* AdSupport.framework */; };
 		ECD148092FD094750015DF31 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = ECD148082FD094750015DF31 /* Localizable.xcstrings */; };
 		ECF0A0013B00000100C0FFEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF0A0003B00000100C0FFEE /* LaunchScreen.storyboard */; };
-		ECF3911D2CDE98AF00B3FAFF /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = ECF3911C2CDE98AF00B3FAFF /* FirebaseAnalytics */; };
-		ECF3911F2CDE98BC00B3FAFF /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = ECF3911E2CDE98BC00B3FAFF /* FirebaseCore */; };
+		EC7A1E112F00100100D3C0DE /* TelemetryDeck in Frameworks */ = {isa = PBXBuildFile; productRef = EC7A1E102F00100100D3C0DE /* TelemetryDeck */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EC4806182CDDA0AC003DCDD3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EC8F016F2B0024A00040A335 /* CryptoProfitCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoProfitCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC8F01722B0024A00040A335 /* CryptoProfitCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoProfitCalculatorApp.swift; sourceTree = "<group>"; };
 		EC8F01762B0024A20040A335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,12 +46,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC80252F2C9CEAC600019AD1 /* GoogleMobileAds in Frameworks */,
-				ECF3911D2CDE98AF00B3FAFF /* FirebaseAnalytics in Frameworks */,
+				EC7A1E112F00100100D3C0DE /* TelemetryDeck in Frameworks */,
 				ECC864F32BD9A9EB00F7B2FF /* AdSupport.framework in Frameworks */,
 				EC4F04A83078BBA7005CFBFB /* RevenueCat in Frameworks */,
 				EC4F04AA3078BBA7005CFBFB /* RevenueCatUI in Frameworks */,
 				EC4F04AD3078BBED005CFBFB /* RevenueCatAdMob in Frameworks */,
-				ECF3911F2CDE98BC00B3FAFF /* FirebaseCore in Frameworks */,
 				EC8F01882B0033C80040A335 /* AppTrackingTransparency.framework in Frameworks */,
 				EC8F018D2B0033F70040A335 /* StoreKit.framework in Frameworks */,
 			);
@@ -66,7 +62,6 @@
 		EC8F01662B0024A00040A335 = {
 			isa = PBXGroup;
 			children = (
-				EC4806182CDDA0AC003DCDD3 /* GoogleService-Info.plist */,
 				EC8F01712B0024A00040A335 /* CryptoProfitCalculator */,
 				EC8F01702B0024A00040A335 /* Products */,
 				EC8F01842B0033BD0040A335 /* Frameworks */,
@@ -129,8 +124,7 @@
 			name = CryptoProfitCalculator;
 			packageProductDependencies = (
 				EC80252E2C9CEAC600019AD1 /* GoogleMobileAds */,
-				ECF3911C2CDE98AF00B3FAFF /* FirebaseAnalytics */,
-				ECF3911E2CDE98BC00B3FAFF /* FirebaseCore */,
+				EC7A1E102F00100100D3C0DE /* TelemetryDeck */,
 				EC4F04A73078BBA7005CFBFB /* RevenueCat */,
 				EC4F04A93078BBA7005CFBFB /* RevenueCatUI */,
 				EC4F04AC3078BBED005CFBFB /* RevenueCatAdMob */,
@@ -212,7 +206,7 @@
 			mainGroup = EC8F01662B0024A00040A335;
 			packageReferences = (
 				EC80252D2C9CEAC600019AD1 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
-				ECF3911B2CDE985D00B3FAFF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				EC7A1E0F2F00100100D3C0DE /* XCRemoteSwiftPackageReference "SwiftSDK" */,
 				EC4F04A63078BBA7005CFBFB /* XCRemoteSwiftPackageReference "purchases-ios-spm" */,
 				EC4F04AB3078BBED005CFBFB /* XCRemoteSwiftPackageReference "purchases-ios-admob" */,
 			);
@@ -230,7 +224,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC4806192CDDA0AC003DCDD3 /* GoogleService-Info.plist in Resources */,
 				ECD148092FD094750015DF31 /* Localizable.xcstrings in Resources */,
 				EC8F01772B0024A20040A335 /* Assets.xcassets in Resources */,
 				ECF0A0013B00000100C0FFEE /* LaunchScreen.storyboard in Resources */,
@@ -509,12 +502,12 @@
 				minimumVersion = 12.0.0;
 			};
 		};
-		ECF3911B2CDE985D00B3FAFF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+		EC7A1E0F2F00100100D3C0DE /* XCRemoteSwiftPackageReference "SwiftSDK" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			repositoryURL = "https://github.com/TelemetryDeck/SwiftSDK.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 11.4.0;
+				minimumVersion = 2.14.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -540,15 +533,10 @@
 			package = EC80252D2C9CEAC600019AD1 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
 			productName = GoogleMobileAds;
 		};
-		ECF3911C2CDE98AF00B3FAFF /* FirebaseAnalytics */ = {
+		EC7A1E102F00100100D3C0DE /* TelemetryDeck */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = ECF3911B2CDE985D00B3FAFF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		ECF3911E2CDE98BC00B3FAFF /* FirebaseCore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = ECF3911B2CDE985D00B3FAFF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseCore;
+			package = EC7A1E0F2F00100100D3C0DE /* XCRemoteSwiftPackageReference "SwiftSDK" */;
+			productName = TelemetryDeck;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

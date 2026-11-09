@@ -10,14 +10,13 @@ An iOS app for quickly estimating cryptocurrency gains, losses, and exit fees. I
 - Supports multiple currency symbols and persists the selected preference.
 - Includes crypto education trivia organized into chapters.
 - Uses RevenueCat for the ad-free entitlement and Google Mobile Ads for supported ad experiences.
-- Integrates Firebase Analytics for product insights.
+- Uses TelemetryDeck for privacy-focused product analytics.
 
 ## Tech stack
 
 - Swift and SwiftUI
 - iOS 16+
 - Swift Package Manager
-- Firebase
 - Google Mobile Ads
 - RevenueCat
 
@@ -27,7 +26,7 @@ An iOS app for quickly estimating cryptocurrency gains, losses, and exit fees. I
 2. Let Xcode resolve the Swift Package Manager dependencies.
 3. Select an iOS simulator or connected device and run the `CryptoProfitCalculator` scheme.
 
-The project includes platform configuration for Firebase, RevenueCat, and Google Mobile Ads. Use your own service configuration when distributing a derivative build.
+The project includes platform configuration for TelemetryDeck, RevenueCat, and Google Mobile Ads. Use your own service configuration when distributing a derivative build.
 
 ## Repository conventions
 

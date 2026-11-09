@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import FirebaseAnalytics
+import TelemetryDeck
 
 struct SettingsView: View {
     @EnvironmentObject private var paywallState: PaywallState
@@ -28,7 +28,10 @@ struct SettingsView: View {
 
                 if !store.completedPurchases.contains("com.removeads.profitloss") {
                     Section {
-                        Button { paywallState.isPresented = true } label: {
+                        Button {
+                            TelemetryDeck.signal("paywall.opened", parameters: ["source": "settings"])
+                            paywallState.isPresented = true
+                        } label: {
                             Label("Go Ad-Free", systemImage: "crown")
                         }
                     } header: {

@@ -9,9 +9,9 @@ import SwiftUI
 import AppTrackingTransparency
 import GoogleMobileAds
 import AdSupport
-import FirebaseCore
 import RevenueCat
 import RevenueCatUI
+import TelemetryDeck
 
 enum AppTheme: String, CaseIterable, Identifiable {
     case system
@@ -62,7 +62,6 @@ class AppDelegate: NSObject, UIApplicationDelegate {
             }
         })
         
-        FirebaseApp.configure()
         configureRevenueCat()
         
         return true
@@ -82,6 +81,10 @@ struct CryptoProfitCalculatorApp: App {
     @StateObject private var paywallState = PaywallState()
     @StateObject private var reviewRequestState = ReviewRequestState()
     @AppStorage("appTheme") private var appTheme = AppTheme.system.rawValue
+
+    init() {
+        TelemetryDeck.initialize(config: .init(appID: "0D65FE78-BA38-4F6D-BE12-5138B01C6652"))
+    }
 
     var body: some Scene {
         WindowGroup {

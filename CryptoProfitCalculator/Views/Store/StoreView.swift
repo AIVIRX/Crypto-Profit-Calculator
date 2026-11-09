@@ -6,17 +6,10 @@
 //
 
 import SwiftUI
-import FirebaseAnalytics
 import RevenueCatUI
 
 struct StoreView: View {
     var body: some View {
         PaywallView(displayCloseButton: true)
-        .onAppear {
-            Analytics.logEvent(
-                AnalyticsEventScreenView,
-                parameters: [AnalyticsParameterScreenName: "Paywall"]
-            )
-        }
     }
 }

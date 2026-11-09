@@ -8,6 +8,7 @@
 import SwiftUI
 import Combine
 import StoreKit
+import TelemetryDeck
 
 struct CryptoTriviaView: View {
     struct TriviaQuestion {
@@ -802,6 +803,7 @@ struct CryptoTriviaView: View {
             isQuizCompleted = true
             checkHighScore()
             saveChapterProgress()
+            TelemetryDeck.signal("trivia.chapterCompleted")
         }
     }
 

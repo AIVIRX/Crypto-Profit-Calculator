@@ -8,6 +8,7 @@ import SwiftUI
 import GoogleMobileAds
 import AppTrackingTransparency
 import AdSupport
+import TelemetryDeck
 
 func symbolIcon(for symbol: String) -> String {
     switch symbol {
@@ -125,6 +126,7 @@ struct CalculatorView: View {
                 if store.completedPurchases.contains("com.removeads.profitloss") == false {
                     ToolbarItem(placement: .topBarLeading) {
                         Button {
+                            TelemetryDeck.signal("paywall.opened", parameters: ["source": "calculator_toolbar"])
                             paywallState.isPresented = true
                         } label: {
                             Image(systemName: "gift.fill")
@@ -184,6 +186,7 @@ struct CalculatorView: View {
         displayedExitFeeAmount = emptyToZero(exitFeeAmount)
 
         UIImpactFeedbackGenerator(style: .medium).impactOccurred()
+        TelemetryDeck.signal("calculator.completed")
 
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.45) {
             showCalculatorInterstitialIfReady()
